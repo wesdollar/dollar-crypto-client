@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState, useEffect } from "react";
+import { Dashboard } from "@wesdollar/dollar-ui.views.dashboard";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  const [isFetching, setIsFetching] = useState(true);
+  const [profits, setProfits] = useState({});
+
+  useEffect(() => {
+    const callProfits = async () => {
+      const response = await fetch(process.env.REACT_APP_API_URL);
+      const json = await response.json();
+
+      if (Object.keys(json).length) {
+        setProfits(json);
+        setIsFetching(false);
+      }
+    };
+
+    callProfits();
+  }, []);
+
+  return <Dashboard isLoading={isFetching} profitsResource={profits} />;
 }
 
 export default App;
