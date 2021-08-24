@@ -2,7 +2,9 @@ import { useState, useEffect } from "react";
 import styled from "styled-components";
 import { Dashboard } from "@wesdollar/dollar-ui.views.dashboard";
 import { Github } from "@wesdollar/dollar-ui.auth.github";
+import { LogoPngMd } from "@wesdollar/dollar-crypto.logo.logo-png-md";
 import { Space } from "@wesdollar/dollar-ui.ui.space";
+import { Button } from "@wesdollar/dollar-crypto.dollar-crypto.ui.buttons.button";
 
 const {
   REACT_APP_GOOGLE_API_KEY,
@@ -15,7 +17,34 @@ const {
 } = process.env;
 
 const Container = styled.div`
-  display: ${({ githubMounted }) => (!githubMounted ? "none" : "inherit")};
+  display: grid;
+  place-items: center;
+  margin: auto;
+
+  ${Space} {
+    grid-row: 2;
+  }
+
+  ${Github} {
+    grid-row: 3;
+  }
+`;
+
+const LogoContainer = styled.div`
+  grid-row: 1;
+
+  img {
+    width: 124px;
+    height: 124px;
+  }
+`;
+
+const FlexContainer = styled.div`
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 `;
 
 function App() {
@@ -25,7 +54,6 @@ function App() {
   const [userIsAuthenticated, setUserIsAuthenticated] = useState(false);
   const [authErrors, setAuthErrors] = useState();
   const [authResult, setAuthResult] = useState();
-  const [githubMounted, setGithubMounted] = useState(false);
 
   useEffect(() => console.error("auth errors", authErrors), [authErrors]);
   useEffect(() => console.log("auth result", authResult), [authResult]);
@@ -48,23 +76,28 @@ function App() {
 
   if (!userIsAuthenticated) {
     return (
-      <Container githubMounted={githubMounted}>
-        <Space height="40px" />
-        <Github
-          apiKey={REACT_APP_GOOGLE_API_KEY}
-          authDomain={REACT_APP_GOOGLE_AUTH_DOMAIN}
-          projectId={REACT_APP_GOOGLE_PROJECT_ID}
-          storageBucket={REACT_APP_GOOGLE_STORAGE_BUCKET}
-          messagingSenderId={REACT_APP_GOOGLE_MESSAGING_SENDER_ID}
-          appId={REACT_APP_GOOGLE_APP_ID}
-          measurementId={REACT_APP_GOOGLE_MEASUREMENT_ID}
-          setAuthenticatedUser={setAuthenticatedUser}
-          setUserIsAuthenticated={setUserIsAuthenticated}
-          setAuthErrors={setAuthErrors}
-          setAuthResult={setAuthResult}
-          componenentMounted={setGithubMounted}
-        />
-      </Container>
+      <FlexContainer>
+        <Container>
+          <LogoContainer>
+            <LogoPngMd />
+          </LogoContainer>
+          <Space height="80px" />
+          <Github
+            apiKey={REACT_APP_GOOGLE_API_KEY}
+            authDomain={REACT_APP_GOOGLE_AUTH_DOMAIN}
+            projectId={REACT_APP_GOOGLE_PROJECT_ID}
+            storageBucket={REACT_APP_GOOGLE_STORAGE_BUCKET}
+            messagingSenderId={REACT_APP_GOOGLE_MESSAGING_SENDER_ID}
+            appId={REACT_APP_GOOGLE_APP_ID}
+            measurementId={REACT_APP_GOOGLE_MEASUREMENT_ID}
+            setAuthenticatedUser={setAuthenticatedUser}
+            setUserIsAuthenticated={setUserIsAuthenticated}
+            setAuthErrors={setAuthErrors}
+            setAuthResult={setAuthResult}
+            ButtonOverride={Button}
+          />
+        </Container>
+      </FlexContainer>
     );
   }
 
