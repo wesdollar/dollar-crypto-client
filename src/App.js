@@ -20,14 +20,6 @@ const Container = styled.div`
   display: grid;
   place-items: center;
   margin: auto;
-
-  ${Space} {
-    grid-row: 2;
-  }
-
-  ${Github} {
-    grid-row: 3;
-  }
 `;
 
 const LogoContainer = styled.div`
@@ -50,17 +42,23 @@ const FlexContainer = styled.div`
 function App() {
   const [isFetching, setIsFetching] = useState(true);
   const [profits, setProfits] = useState({});
-  const [authentiatedUser, setAuthenticatedUser] = useState({});
+  const [authenticatedUser, setAuthenticatedUser] = useState({});
   const [userIsAuthenticated, setUserIsAuthenticated] = useState(false);
   const [authErrors, setAuthErrors] = useState();
   const [authResult, setAuthResult] = useState();
 
   useEffect(() => console.error("auth errors", authErrors), [authErrors]);
   useEffect(() => console.log("auth result", authResult), [authResult]);
+  useEffect(
+    () => console.log("auth user", authenticatedUser),
+    [authenticatedUser]
+  );
 
   useEffect(() => {
     const callProfits = async () => {
-      const response = await fetch(process.env.REACT_APP_API_URL);
+      const response = await fetch(
+        `${process.env.REACT_APP_API_URL}?token=${authenticatedUser}`
+      );
       const json = await response.json();
 
       if (Object.keys(json).length) {
@@ -69,10 +67,10 @@ function App() {
       }
     };
 
-    if (Object.keys(authentiatedUser).length) {
+    if (userIsAuthenticated) {
       callProfits();
     }
-  }, [authentiatedUser]);
+  }, [userIsAuthenticated, authenticatedUser]);
 
   if (!userIsAuthenticated) {
     return (
