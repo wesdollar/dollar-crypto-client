@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import styled from "styled-components";
 import { Dashboard } from "@wesdollar/dollar-ui.views.dashboard";
 import { Github } from "@wesdollar/dollar-ui.auth.github";
-import { Apple } from "@wesdollar/dollar-ui.auth.apple";
+// import { Apple } from "@wesdollar/dollar-ui.auth.apple";
 import { LogoPngMd } from "@wesdollar/dollar-crypto.logo.logo-png-md";
 import { Space } from "@wesdollar/dollar-ui.ui.space";
 import { Button } from "@wesdollar/dollar-crypto.dollar-crypto.ui.buttons.button";
