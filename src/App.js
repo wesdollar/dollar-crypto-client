@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import styled from "styled-components";
 import { Dashboard } from "@wesdollar/dollar-ui.views.dashboard";
 import { Github } from "@wesdollar/dollar-ui.auth.github";
+import { Apple } from "@wesdollar/dollar-ui.auth.apple";
 import { LogoPngMd } from "@wesdollar/dollar-crypto.logo.logo-png-md";
 import { Space } from "@wesdollar/dollar-ui.ui.space";
 import { Button } from "@wesdollar/dollar-crypto.dollar-crypto.ui.buttons.button";
@@ -55,12 +56,14 @@ function App() {
   const [validationErrors, setValidationErrors] = useState({});
   /* eslint-enable */
 
-  useEffect(
-    () =>
-      process.env.REACT_APP_DEBUG &&
-      console.log("auth user", authenticatedUser),
-    [authenticatedUser]
-  );
+  useEffect(() => {
+    if (process.env.REACT_APP_DEBUG) {
+      authenticatedUser.length && console.log("user token:", authenticatedUser);
+
+      Object.keys(userDetails).length &&
+        console.log("user details:", userDetails);
+    }
+  }, [authenticatedUser, userDetails]);
 
   useEffect(() => {
     setIsFetching(true);
@@ -142,6 +145,20 @@ function App() {
   }
 
   if (!userIsAuthenticated) {
+    const props = {
+      apiKey: REACT_APP_GOOGLE_API_KEY,
+      authDomain: REACT_APP_GOOGLE_AUTH_DOMAIN,
+      projectId: REACT_APP_GOOGLE_PROJECT_ID,
+      storageBucket: REACT_APP_GOOGLE_STORAGE_BUCKET,
+      messagingSenderId: REACT_APP_GOOGLE_MESSAGING_SENDER_ID,
+      appId: REACT_APP_GOOGLE_APP_ID,
+      measurementId: REACT_APP_GOOGLE_MEASUREMENT_ID,
+      setAuthenticatedUser: setAuthenticatedUser,
+      setUserIsAuthenticated: setUserIsAuthenticated,
+      setAuthErrors: setAuthErrors,
+      setAuthResult: setAuthResult,
+      ButtonOverride: Button,
+    };
     return (
       <FlexContainer>
         <Container>
@@ -149,20 +166,8 @@ function App() {
             <LogoPngMd />
           </LogoContainer>
           <Space height="80px" />
-          <Github
-            apiKey={REACT_APP_GOOGLE_API_KEY}
-            authDomain={REACT_APP_GOOGLE_AUTH_DOMAIN}
-            projectId={REACT_APP_GOOGLE_PROJECT_ID}
-            storageBucket={REACT_APP_GOOGLE_STORAGE_BUCKET}
-            messagingSenderId={REACT_APP_GOOGLE_MESSAGING_SENDER_ID}
-            appId={REACT_APP_GOOGLE_APP_ID}
-            measurementId={REACT_APP_GOOGLE_MEASUREMENT_ID}
-            setAuthenticatedUser={setAuthenticatedUser}
-            setUserIsAuthenticated={setUserIsAuthenticated}
-            setAuthErrors={setAuthErrors}
-            setAuthResult={setAuthResult}
-            ButtonOverride={Button}
-          />
+          <Github {...props} />
+          {/* <Apple {...props} /> */}
         </Container>
       </FlexContainer>
     );
