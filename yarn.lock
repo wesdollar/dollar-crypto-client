@@ -3064,15 +3064,15 @@
     prop-types "15.7.2"
     styled-components "5.3.0"
 
-"@wesdollar/dollar-crypto.dollar-crypto.views.login@^1.0.2":
-  version "1.0.3"
-  resolved "https://node.bit.dev/@wesdollar/dollar-crypto.dollar-crypto.views.login/-/@wesdollar-dollar-crypto.dollar-crypto.views.login-1.0.3.tgz#b854b2dd570f7cee4c3cb7027a8b1313047f73b6"
-  integrity sha1-uFSy3VcPfO5MPLcCeosTEwR/c7Y=
+"@wesdollar/dollar-crypto.dollar-crypto.views.login@^1.0.4":
+  version "1.0.4"
+  resolved "https://node.bit.dev/@wesdollar/dollar-crypto.dollar-crypto.views.login/-/@wesdollar-dollar-crypto.dollar-crypto.views.login-1.0.4.tgz#b25b5d0333fdc353feae18af0abdceb830d73773"
+  integrity sha1-sltdAzP9w1P+rhivCr3OuDDXN3M=
   dependencies:
     "@wesdollar/dollar-crypto.dollar-crypto.ui.buttons.button" "0.0.3"
     "@wesdollar/dollar-crypto.logo.logo-png-md" "0.0.1"
-    "@wesdollar/dollar-ui.auth.apple" "0.0.12"
-    "@wesdollar/dollar-ui.auth.github" "1.0.25"
+    "@wesdollar/dollar-ui.auth.apple" "0.0.13"
+    "@wesdollar/dollar-ui.auth.github" "1.0.26"
     "@wesdollar/dollar-ui.ui.loading" "0.0.4"
     "@wesdollar/dollar-ui.ui.space" "0.0.2"
     core-js "^3.0.0"
@@ -3116,13 +3116,13 @@
     core-js "^3.0.0"
     styled-components "5.3.0"
 
-"@wesdollar/dollar-ui.auth.apple@0.0.12":
-  version "0.0.12"
-  resolved "https://node.bit.dev/@wesdollar/dollar-ui.auth.apple/-/@wesdollar-dollar-ui.auth.apple-0.0.12.tgz#2b49a97d756db9862ff9aad6a78becf9549f988f"
-  integrity sha1-K0mpfXVtuYYv+arWp4vs+VSfmI8=
+"@wesdollar/dollar-ui.auth.apple@0.0.13":
+  version "0.0.13"
+  resolved "https://node.bit.dev/@wesdollar/dollar-ui.auth.apple/-/@wesdollar-dollar-ui.auth.apple-0.0.13.tgz#bde58ede3e3547db5e5abe98392c375d7d578f33"
+  integrity sha1-veWO3j41R9teWr6YOSw3XX1XjzM=
   dependencies:
     "@material-ui/icons" "4.11.2"
-    "@wesdollar/dollar-ui.auth.firebase-auth-base" "2.0.2"
+    "@wesdollar/dollar-ui.auth.firebase-auth-base" "2.0.3"
     "@wesdollar/dollar-ui.ui.buttons.button" "0.0.4"
     core-js "^3.0.0"
     prop-types "15.7.2"
@@ -3163,7 +3163,30 @@
     prop-types "15.7.2"
     styled-components "5.3.0"
 
-"@wesdollar/dollar-ui.auth.github@1.0.25", "@wesdollar/dollar-ui.auth.github@^1.0.24":
+"@wesdollar/dollar-ui.auth.firebase-auth-base@2.0.3":
+  version "2.0.3"
+  resolved "https://node.bit.dev/@wesdollar/dollar-ui.auth.firebase-auth-base/-/@wesdollar-dollar-ui.auth.firebase-auth-base-2.0.3.tgz#f6b79a00a1e907cb6072a818fe2e0a99b6a0af79"
+  integrity sha1-9reaAKHpB8tgcqgY/i4Kmbagr3k=
+  dependencies:
+    "@wesdollar/dollar-ui.ui.buttons.button" "0.0.4"
+    "@wesdollar/dollar-ui.ui.loading" "0.0.4"
+    core-js "^3.0.0"
+    firebase "9.0.0"
+    prop-types "15.7.2"
+    styled-components "5.3.0"
+
+"@wesdollar/dollar-ui.auth.github@1.0.26":
+  version "1.0.26"
+  resolved "https://node.bit.dev/@wesdollar/dollar-ui.auth.github/-/@wesdollar-dollar-ui.auth.github-1.0.26.tgz#a193ca2c63d863a2e3ff5434803f31b5ec91102b"
+  integrity sha1-oZPKLGPYY6Lj/1Q0gD8xteyRECs=
+  dependencies:
+    "@material-ui/icons" "4.11.2"
+    "@wesdollar/dollar-ui.auth.firebase-auth-base" "2.0.3"
+    "@wesdollar/dollar-ui.ui.buttons.button" "0.0.4"
+    core-js "^3.0.0"
+    prop-types "15.7.2"
+
+"@wesdollar/dollar-ui.auth.github@^1.0.24":
   version "1.0.25"
   resolved "https://node.bit.dev/@wesdollar/dollar-ui.auth.github/-/@wesdollar-dollar-ui.auth.github-1.0.25.tgz#e5201fdf5928337889bd107fd864c23c4b814aff"
   integrity sha1-5SAf31koM3iJvRB/2GTCPEuBSv8=
