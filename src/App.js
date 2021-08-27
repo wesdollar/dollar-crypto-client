@@ -102,6 +102,11 @@ function App() {
       }
     };
 
+    console.log("user details:", userDetails);
+    console.log("userIsAuth:", userIsAuthenticated);
+    console.log("profits called:", profitsCalled);
+    console.log("authenticated user:", authenticatedUser);
+
     if (
       Object.keys(userDetails).length &&
       userDetails.cbKey &&
@@ -118,12 +123,14 @@ function App() {
     const cbKey = document.querySelector("#key").value;
     const cbSecret = document.querySelector("#secret").value;
 
+    console.log(authenticatedUser);
+
     const response = await fetch(`${apiUrl}/set-keys`, {
       method: "POST",
       body: JSON.stringify({
         cbKey,
         cbSecret,
-        token: authenticatedUser,
+        token: authenticatedUser.accessToken,
       }),
       headers: {
         "Content-Type": "application/json",

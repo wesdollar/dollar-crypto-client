@@ -8,11 +8,11 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "@wesdollar/dollar-crypto.dollar-crypto.ui.buttons.button": "^0.0.1",
-    "@wesdollar/dollar-crypto.dollar-crypto.views.login": "^1.0.1",
-    "@wesdollar/dollar-crypto.dollar-crypto.views.set-keys": "^0.0.8",
+    "@wesdollar/dollar-crypto.dollar-crypto.views.login": "^1.0.2",
+    "@wesdollar/dollar-crypto.dollar-crypto.views.set-keys": "^0.0.9",
     "@wesdollar/dollar-crypto.logo.logo-png-md": "^0.0.1",
     "@wesdollar/dollar-ui.auth.apple": "^0.0.3",
-    "@wesdollar/dollar-ui.auth.github": "^1.0.16",
+    "@wesdollar/dollar-ui.auth.github": "^1.0.24",
     "@wesdollar/dollar-ui.ui.loading": "^0.0.4",
     "@wesdollar/dollar-ui.ui.space": "^0.0.2",
     "@wesdollar/dollar-ui.views.dashboard": "^0.0.8",
@@ -28,7 +28,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "ngrok": "ngrok http --region=us --hostname=dollar-crypto-dash.ngrok.io"
+    "ngrok": "ngrok http --region=us --hostname=dollar-crypto-dash.ngrok.io",
+    "upgrade": "yarn upgrade --scope @wesdollar"
   },
   "eslintConfig": {
     "extends": [
