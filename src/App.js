@@ -1,13 +1,9 @@
 import { useState, useEffect } from "react";
 import styled from "styled-components";
 import { Dashboard } from "@wesdollar/dollar-ui.views.dashboard";
-import { Github } from "@wesdollar/dollar-ui.auth.github";
-// import { Apple } from "@wesdollar/dollar-ui.auth.apple";
-import { LogoPngMd } from "@wesdollar/dollar-crypto.logo.logo-png-md";
-import { Space } from "@wesdollar/dollar-ui.ui.space";
-import { Button } from "@wesdollar/dollar-crypto.dollar-crypto.ui.buttons.button";
 import { SetKeys } from "@wesdollar/dollar-crypto.dollar-crypto.views.set-keys";
-import firebase from "firebase/app";
+import { Login } from "@wesdollar/dollar-crypto.dollar-crypto.views.login";
+import { Loading } from "@wesdollar/dollar-ui.ui.loading";
 
 const {
   REACT_APP_GOOGLE_API_KEY,
@@ -21,21 +17,6 @@ const {
 
 const { REACT_APP_API_URL: apiUrl } = process.env;
 
-const Container = styled.div`
-  display: grid;
-  place-items: center;
-  margin: auto;
-`;
-
-const LogoContainer = styled.div`
-  grid-row: 1;
-
-  img {
-    width: 124px;
-    height: 124px;
-  }
-`;
-
 const FlexContainer = styled.div`
   display: flex;
   height: 100%;
@@ -43,6 +24,16 @@ const FlexContainer = styled.div`
   align-items: center;
   align-content: center;
 `;
+
+const firebaseConfig = {
+  apiKey: REACT_APP_GOOGLE_API_KEY,
+  authDomain: REACT_APP_GOOGLE_AUTH_DOMAIN,
+  projectId: REACT_APP_GOOGLE_PROJECT_ID,
+  storageBucket: REACT_APP_GOOGLE_STORAGE_BUCKET,
+  messagingSenderId: REACT_APP_GOOGLE_MESSAGING_SENDER_ID,
+  appId: REACT_APP_GOOGLE_APP_ID,
+  measurementId: REACT_APP_GOOGLE_MEASUREMENT_ID,
+};
 
 function App() {
   /* eslint-disable no-unused-vars */
@@ -55,7 +46,14 @@ function App() {
   const [userDetails, setUserDetails] = useState({});
   const [displaySetCreds, setDisplaySetCreds] = useState(false);
   const [validationErrors, setValidationErrors] = useState({});
+  const [profitsCalled, setProfitsCalled] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
   /* eslint-enable */
+
+  useEffect(
+    () => userIsAuthenticated && setIsLoading(true),
+    [userIsAuthenticated]
+  );
 
   useEffect(() => {
     if (process.env.REACT_APP_DEBUG) {
@@ -71,16 +69,17 @@ function App() {
 
     const callGetUserDetails = async () => {
       const response = await fetch(
-        `${apiUrl}/users?token=${authenticatedUser}`
+        `${apiUrl}/users?token=${authenticatedUser.accessToken}`
       );
-      const json = await response.json();
+      const user = await response.json();
 
-      if (Object.keys(json).length) {
-        setUserDetails(json);
+      if (user && Object.keys(user).length) {
+        setUserDetails(user);
 
-        if (!json.cbKey || !json.cbSecret) {
+        if (!user.cbKey || !user.cbSecret) {
           setDisplaySetCreds(true);
           setIsFetching(false);
+          setIsLoading(false);
         }
       }
     };
@@ -93,7 +92,7 @@ function App() {
   useEffect(() => {
     const callProfits = async () => {
       const response = await fetch(
-        `${apiUrl}/profits?token=${authenticatedUser}`
+        `${apiUrl}/profits?token=${authenticatedUser.accessToken}`
       );
       const json = await response.json();
 
@@ -107,11 +106,13 @@ function App() {
       Object.keys(userDetails).length &&
       userDetails.cbKey &&
       userDetails.cbSecret &&
-      userIsAuthenticated
+      userIsAuthenticated &&
+      !profitsCalled
     ) {
       callProfits();
+      setProfitsCalled(true);
     }
-  }, [userDetails, authenticatedUser, userIsAuthenticated]);
+  }, [userDetails, authenticatedUser, userIsAuthenticated, profitsCalled]);
 
   const handleSaveKeys = async () => {
     const cbKey = document.querySelector("#key").value;
@@ -146,33 +147,16 @@ function App() {
   }
 
   if (!userIsAuthenticated) {
-    const props = {
-      apiKey: REACT_APP_GOOGLE_API_KEY,
-      authDomain: REACT_APP_GOOGLE_AUTH_DOMAIN,
-      projectId: REACT_APP_GOOGLE_PROJECT_ID,
-      storageBucket: REACT_APP_GOOGLE_STORAGE_BUCKET,
-      messagingSenderId: REACT_APP_GOOGLE_MESSAGING_SENDER_ID,
-      appId: REACT_APP_GOOGLE_APP_ID,
-      measurementId: REACT_APP_GOOGLE_MEASUREMENT_ID,
-      setAuthenticatedUser: setAuthenticatedUser,
-      setUserIsAuthenticated: setUserIsAuthenticated,
-      setAuthErrors: setAuthErrors,
-      setAuthResult: setAuthResult,
-      ButtonOverride: Button,
-      firebase: firebase,
-    };
     return (
-      <FlexContainer>
-        <Container>
-          <LogoContainer>
-            <LogoPngMd />
-          </LogoContainer>
-          <Space height="80px" />
-          <Github {...props} />
-          {/* <Space height="20px" />
-          <Apple {...props} buttonLabel="Login with Apple" /> */}
-        </Container>
-      </FlexContainer>
+      <Loading isLoading={isLoading}>
+        <Login
+          setAuthResult={setAuthResult}
+          setAuthErrors={setAuthErrors}
+          setUserIsAuthenticated={setUserIsAuthenticated}
+          setAuthenticatedUser={setAuthenticatedUser}
+          firebaseConfig={firebaseConfig}
+        />
+      </Loading>
     );
   }
 
