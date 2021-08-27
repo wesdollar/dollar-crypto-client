@@ -7,6 +7,7 @@ import { LogoPngMd } from "@wesdollar/dollar-crypto.logo.logo-png-md";
 import { Space } from "@wesdollar/dollar-ui.ui.space";
 import { Button } from "@wesdollar/dollar-crypto.dollar-crypto.ui.buttons.button";
 import { SetKeys } from "@wesdollar/dollar-crypto.dollar-crypto.views.set-keys";
+import firebase from "firebase/app";
 
 const {
   REACT_APP_GOOGLE_API_KEY,
@@ -158,6 +159,7 @@ function App() {
       setAuthErrors: setAuthErrors,
       setAuthResult: setAuthResult,
       ButtonOverride: Button,
+      firebase: firebase,
     };
     return (
       <FlexContainer>
@@ -167,7 +169,8 @@ function App() {
           </LogoContainer>
           <Space height="80px" />
           <Github {...props} />
-          {/* <Apple {...props} /> */}
+          {/* <Space height="20px" />
+          <Apple {...props} buttonLabel="Login with Apple" /> */}
         </Container>
       </FlexContainer>
     );
