@@ -4,6 +4,9 @@ import { Dashboard } from "@wesdollar/dollar-ui.views.dashboard";
 import { SetKeys } from "@wesdollar/dollar-crypto.dollar-crypto.views.set-keys";
 import { Login } from "@wesdollar/dollar-crypto.dollar-crypto.views.login";
 import { Loading } from "@wesdollar/dollar-ui.ui.loading";
+import { getAuth, signOut } from "firebase/auth";
+import { initializeApp } from "firebase/app";
+import { Space } from "@wesdollar/dollar-ui.ui.space";
 
 const {
   REACT_APP_GOOGLE_API_KEY,
@@ -37,7 +40,6 @@ const firebaseConfig = {
 
 function App() {
   /* eslint-disable no-unused-vars */
-  const [isFetching, setIsFetching] = useState(true);
   const [profits, setProfits] = useState({});
   const [authenticatedUser, setAuthenticatedUser] = useState({});
   const [userIsAuthenticated, setUserIsAuthenticated] = useState(false);
@@ -48,64 +50,70 @@ function App() {
   const [validationErrors, setValidationErrors] = useState({});
   const [profitsCalled, setProfitsCalled] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
+  const [loggedOut, setLoggedOut] = useState(false);
+  const [auth, setAuth] = useState();
   /* eslint-enable */
 
-  useEffect(
-    () => userIsAuthenticated && setIsLoading(true),
-    [userIsAuthenticated]
-  );
+  useEffect(() => {
+    initializeApp(firebaseConfig);
+    setAuth(getAuth());
+  }, []);
 
   useEffect(() => {
-    if (process.env.REACT_APP_DEBUG) {
-      authenticatedUser.length && console.log("user token:", authenticatedUser);
-
-      Object.keys(userDetails).length &&
-        console.log("user details:", userDetails);
-    }
-  }, [authenticatedUser, userDetails]);
+    setUserIsAuthenticated(false);
+  }, [loggedOut]);
 
   useEffect(() => {
-    setIsFetching(true);
-
     const callGetUserDetails = async () => {
-      const response = await fetch(
-        `${apiUrl}/users?token=${authenticatedUser.accessToken}`
-      );
-      const user = await response.json();
+      setIsLoading(true);
+      console.log(loggedOut);
+      if (authenticatedUser.accessToken && !loggedOut) {
+        const response = await fetch(
+          `${apiUrl}/users?token=${authenticatedUser.accessToken}`
+        );
+        const user = await response.json();
 
-      if (user && Object.keys(user).length) {
-        setUserDetails(user);
-
-        if (!user.cbKey || !user.cbSecret) {
-          setDisplaySetCreds(true);
-          setIsFetching(false);
+        if (user && Object.keys(user).length) {
+          setUserDetails(user);
           setIsLoading(false);
+
+          if ((!user.cbKey || !user.cbSecret) && !user.status === 401) {
+            setDisplaySetCreds(true);
+          }
+
+          if (user.status === 401) {
+            setIsLoading(false);
+          }
         }
+      } else {
+        setIsLoading(false);
       }
     };
 
-    if (userIsAuthenticated) {
+    if (userIsAuthenticated && !loggedOut) {
       callGetUserDetails();
     }
-  }, [userIsAuthenticated, authenticatedUser, displaySetCreds]);
+  }, [userIsAuthenticated, authenticatedUser, displaySetCreds, loggedOut]);
+
+  useEffect(() => {
+    if (loggedOut) {
+      setIsLoading(false);
+    }
+  }, [loggedOut]);
 
   useEffect(() => {
     const callProfits = async () => {
+      setIsLoading(true);
       const response = await fetch(
         `${apiUrl}/profits?token=${authenticatedUser.accessToken}`
       );
       const json = await response.json();
+      setIsLoading(false);
 
       if (Object.keys(json).length) {
         setProfits(json);
-        setIsFetching(false);
       }
     };
-
-    console.log("user details:", userDetails);
-    console.log("userIsAuth:", userIsAuthenticated);
-    console.log("profits called:", profitsCalled);
-    console.log("authenticated user:", authenticatedUser);
 
     if (
       Object.keys(userDetails).length &&
@@ -123,8 +131,6 @@ function App() {
     const cbKey = document.querySelector("#key").value;
     const cbSecret = document.querySelector("#secret").value;
 
-    console.log(authenticatedUser);
-
     const response = await fetch(`${apiUrl}/set-keys`, {
       method: "POST",
       body: JSON.stringify({
@@ -139,7 +145,7 @@ function App() {
 
     if (response.status === 200) {
       setDisplaySetCreds(false);
-      setIsFetching(true);
+      setIsLoading(true);
     } else {
       setValidationErrors(response.error);
     }
@@ -153,7 +159,7 @@ function App() {
     );
   }
 
-  if (!userIsAuthenticated) {
+  if (!userIsAuthenticated && auth) {
     return (
       <Loading isLoading={isLoading}>
         <Login
@@ -161,13 +167,44 @@ function App() {
           setAuthErrors={setAuthErrors}
           setUserIsAuthenticated={setUserIsAuthenticated}
           setAuthenticatedUser={setAuthenticatedUser}
-          firebaseConfig={firebaseConfig}
+          auth={auth || ""}
+          loggedOut={loggedOut}
         />
       </Loading>
     );
   }
 
-  return <Dashboard isLoading={isFetching} profitsResource={profits} />;
+  const handleSignOut = () => {
+    console.log(auth);
+    signOut(auth)
+      .then(() => {
+        console.log("user logged out");
+        setUserIsAuthenticated(false);
+        setAuthenticatedUser({});
+        setUserDetails({});
+        setLoggedOut(true);
+      })
+      .catch((error) => {
+        console.log("logout failed:", error);
+      });
+  };
+
+  if (auth) {
+    return (
+      <Dashboard
+        isLoading={isLoading}
+        profitsResource={profits}
+        auth={auth}
+        setUserIsAuthenticated={setUserIsAuthenticated}
+        setAuthenticatedUser={setAuthenticatedUser}
+        setUserDetails={setUserDetails}
+        setLoggedOut={setLoggedOut}
+        handleSignOut={handleSignOut}
+      />
+    );
+  }
+
+  return <Space />;
 }
 
 export default App;
