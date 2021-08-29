@@ -1,4 +1,4 @@
-import { Login } from "@wesdollar/dollar-crypto.dollar-crypto.views.login";
+import { WsLogin } from "@wesdollar/dollar-crypto.dollar-crypto.views.ws-login";
 
 const {
   REACT_APP_GOOGLE_API_KEY,
@@ -10,7 +10,8 @@ const {
   REACT_APP_GOOGLE_MEASUREMENT_ID,
 } = process.env;
 
-const { REACT_APP_API_URL: apiUrl } = process.env;
+const { REACT_APP_API_URL: apiUrl, REACT_APP_WEBSOCKET_URL: wsUrl } =
+  process.env;
 
 const firebaseConfig = {
   apiKey: REACT_APP_GOOGLE_API_KEY,
@@ -25,10 +26,11 @@ const firebaseConfig = {
 const props = {
   firebaseConfig,
   apiUrl,
+  wsUrl,
 };
 
 function App() {
-  return <Login {...props} />;
+  return <WsLogin {...props} />;
 }
 
 export default App;

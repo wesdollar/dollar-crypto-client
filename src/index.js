@@ -5,6 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Bugsnag from "@bugsnag/js";
 import BugsnagPluginReact from "@bugsnag/plugin-react";
+// import { Websocket } from "./Websocket";
 
 const isProd = process.env.REACT_APP_ENV === "prod";
 let ErrorBoundary;
