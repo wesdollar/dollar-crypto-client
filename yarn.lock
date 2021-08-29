@@ -2895,29 +2895,29 @@
     prop-types "15.7.2"
     styled-components "5.3.0"
 
-"@wesdollar/dollar-crypto.dollar-crypto.views.login@^2.0.12":
-  version "2.0.12"
-  resolved "https://node.bit.dev/@wesdollar/dollar-crypto.dollar-crypto.views.login/-/@wesdollar-dollar-crypto.dollar-crypto.views.login-2.0.12.tgz#705883fb74c3a2b6301b03ab52b69207461c8cb1"
-  integrity sha1-cFiD+3TDorYwGwOrUraSB0YcjLE=
+"@wesdollar/dollar-crypto.dollar-crypto.views.login@^2.0.16":
+  version "2.0.16"
+  resolved "https://node.bit.dev/@wesdollar/dollar-crypto.dollar-crypto.views.login/-/@wesdollar-dollar-crypto.dollar-crypto.views.login-2.0.16.tgz#206a2318a4c50f3be835060a64f5c01573df9a75"
+  integrity sha1-IGojGKTFDzvoNQYKZPXAFXPfmnU=
   dependencies:
     "@wesdollar/dollar-crypto.dollar-crypto.ui.buttons.button" "0.0.8"
-    "@wesdollar/dollar-crypto.dollar-crypto.views.set-keys" "0.0.18"
+    "@wesdollar/dollar-crypto.dollar-crypto.views.set-keys" "0.0.19"
     "@wesdollar/dollar-crypto.logo.logo-png-md" "0.0.1"
-    "@wesdollar/dollar-ui.auth.apple" "0.0.21"
-    "@wesdollar/dollar-ui.auth.github" "1.0.35"
-    "@wesdollar/dollar-ui.ui.error-state" "0.0.3"
-    "@wesdollar/dollar-ui.ui.loading" "0.0.4"
+    "@wesdollar/dollar-ui.auth.apple" "0.0.23"
+    "@wesdollar/dollar-ui.auth.github" "1.0.37"
+    "@wesdollar/dollar-ui.ui.error-state" "0.0.5"
+    "@wesdollar/dollar-ui.ui.loading" "0.0.6"
     "@wesdollar/dollar-ui.ui.space" "0.0.4"
-    "@wesdollar/dollar-ui.views.dashboard" "0.0.22"
+    "@wesdollar/dollar-ui.views.dashboard" "0.0.25"
     core-js "^3.0.0"
     firebase "9.0.0"
     prop-types "15.7.2"
     styled-components "5.3.0"
 
-"@wesdollar/dollar-crypto.dollar-crypto.views.set-keys@0.0.18", "@wesdollar/dollar-crypto.dollar-crypto.views.set-keys@^0.0.18":
-  version "0.0.18"
-  resolved "https://node.bit.dev/@wesdollar/dollar-crypto.dollar-crypto.views.set-keys/-/@wesdollar-dollar-crypto.dollar-crypto.views.set-keys-0.0.18.tgz#d8b17fc8f7194ba9374446855abce5c53996b7ae"
-  integrity sha1-2LF/yPcZS6k3REaFWrzlxTmWt64=
+"@wesdollar/dollar-crypto.dollar-crypto.views.set-keys@0.0.19", "@wesdollar/dollar-crypto.dollar-crypto.views.set-keys@^0.0.19":
+  version "0.0.19"
+  resolved "https://node.bit.dev/@wesdollar/dollar-crypto.dollar-crypto.views.set-keys/-/@wesdollar-dollar-crypto.dollar-crypto.views.set-keys-0.0.19.tgz#c594adf3cf7419a2a96a42b566e9be3259d77acc"
+  integrity sha1-xZSt8890GaKpakK1Zum+MlnXesw=
   dependencies:
     "@material-ui/styles" "4.11.4"
     "@wesdollar/dollar-crypto.dollar-crypto.constants.colors" "0.0.3"
@@ -2927,27 +2927,27 @@
     "@wesdollar/dollar-ui.text.text" "0.0.4"
     "@wesdollar/dollar-ui.ui.centered-horz" "0.0.1"
     "@wesdollar/dollar-ui.ui.inputs.text-field" "0.0.6"
-    "@wesdollar/dollar-ui.ui.mobile-container" "0.0.3"
+    "@wesdollar/dollar-ui.ui.mobile-container" "0.0.4"
     "@wesdollar/dollar-ui.ui.space" "0.0.4"
     "@wesdollar/dollar-ui.ui.tile" "0.0.6"
     core-js "^3.0.0"
     prop-types "15.7.2"
     styled-components "5.3.0"
 
-"@wesdollar/dollar-crypto.dollar-crypto.views.ws-login@^0.0.1":
-  version "0.0.1"
-  resolved "https://node.bit.dev/@wesdollar/dollar-crypto.dollar-crypto.views.ws-login/-/@wesdollar-dollar-crypto.dollar-crypto.views.ws-login-0.0.1.tgz#d264cf69d0c951abac1bab771f217ab7c68a9cf1"
-  integrity sha1-0mTPadDJUausG6t3HyF6t8aKnPE=
+"@wesdollar/dollar-crypto.dollar-crypto.views.ws-login@^0.0.4":
+  version "0.0.4"
+  resolved "https://node.bit.dev/@wesdollar/dollar-crypto.dollar-crypto.views.ws-login/-/@wesdollar-dollar-crypto.dollar-crypto.views.ws-login-0.0.4.tgz#440ceb8114b96242aa88a9546b5496ee3a90c6db"
+  integrity sha1-RAzrgRS5YkKqiKlUa1SW7jqQxts=
   dependencies:
     "@wesdollar/dollar-crypto.dollar-crypto.ui.buttons.button" "0.0.8"
-    "@wesdollar/dollar-crypto.dollar-crypto.views.set-keys" "0.0.18"
+    "@wesdollar/dollar-crypto.dollar-crypto.views.set-keys" "0.0.19"
     "@wesdollar/dollar-crypto.logo.logo-png-md" "0.0.1"
-    "@wesdollar/dollar-ui.auth.apple" "0.0.22"
-    "@wesdollar/dollar-ui.auth.github" "1.0.36"
-    "@wesdollar/dollar-ui.ui.error-state" "0.0.3"
-    "@wesdollar/dollar-ui.ui.loading" "0.0.5"
+    "@wesdollar/dollar-ui.auth.apple" "0.0.23"
+    "@wesdollar/dollar-ui.auth.github" "1.0.37"
+    "@wesdollar/dollar-ui.ui.error-state" "0.0.5"
+    "@wesdollar/dollar-ui.ui.loading" "0.0.6"
     "@wesdollar/dollar-ui.ui.space" "0.0.4"
-    "@wesdollar/dollar-ui.views.dashboard" "0.0.23"
+    "@wesdollar/dollar-ui.views.dashboard" "0.0.25"
     core-js "^3.0.0"
     firebase "9.0.0"
     moment "2.29.1"
@@ -2963,94 +2963,56 @@
     core-js "^3.0.0"
     prop-types "15.7.2"
 
-"@wesdollar/dollar-ui.action-buttons.refresh@0.0.4":
-  version "0.0.4"
-  resolved "https://node.bit.dev/@wesdollar/dollar-ui.action-buttons.refresh/-/@wesdollar-dollar-ui.action-buttons.refresh-0.0.4.tgz#044abb23e73943ad31c961ae3a6e8706b6cbfab5"
-  integrity sha1-BEq7I+c5Q60xyWGuOm6HBrbL+rU=
+"@wesdollar/dollar-crypto.logo.logo-png-sm@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/dollar-crypto.logo.logo-png-sm/-/@wesdollar-dollar-crypto.logo.logo-png-sm-0.0.1.tgz#a8060aa79827ede2fc8cbe2e33e1b77cac8ca3a2"
+  integrity sha1-qAYKp5gn7eL8jL4uM+G3fKyMo6I=
+  dependencies:
+    core-js "^3.0.0"
+    prop-types "15.7.2"
+
+"@wesdollar/dollar-ui.action-buttons.refresh@0.0.6":
+  version "0.0.6"
+  resolved "https://node.bit.dev/@wesdollar/dollar-ui.action-buttons.refresh/-/@wesdollar-dollar-ui.action-buttons.refresh-0.0.6.tgz#5a9102f2c255587a3a122a03315e3bf81394317e"
+  integrity sha1-WpEC8sJVWHo6EioDMV47+BOUMX4=
   dependencies:
     "@material-ui/icons" "4.11.2"
-    "@wesdollar/dollar-ui.ui.loading" "0.0.4"
+    "@wesdollar/dollar-ui.ui.loading" "0.0.6"
     core-js "^3.0.0"
     styled-components "5.3.0"
 
-"@wesdollar/dollar-ui.action-buttons.refresh@0.0.5":
-  version "0.0.5"
-  resolved "https://node.bit.dev/@wesdollar/dollar-ui.action-buttons.refresh/-/@wesdollar-dollar-ui.action-buttons.refresh-0.0.5.tgz#044392bab8a0d93e3d08f7858b0d3156f328feca"
-  integrity sha1-BEOSurig2T49CPeFiw0xVvMo/so=
+"@wesdollar/dollar-ui.auth.apple@0.0.23", "@wesdollar/dollar-ui.auth.apple@^0.0.23":
+  version "0.0.23"
+  resolved "https://node.bit.dev/@wesdollar/dollar-ui.auth.apple/-/@wesdollar-dollar-ui.auth.apple-0.0.23.tgz#9752cf15810bc479348cdab4e0ced3dd59135c34"
+  integrity sha1-l1LPFYELxHk0jNq04M7T3VkTXDQ=
   dependencies:
     "@material-ui/icons" "4.11.2"
-    "@wesdollar/dollar-ui.ui.loading" "0.0.5"
-    core-js "^3.0.0"
-    styled-components "5.3.0"
-
-"@wesdollar/dollar-ui.auth.apple@0.0.21", "@wesdollar/dollar-ui.auth.apple@^0.0.21":
-  version "0.0.21"
-  resolved "https://node.bit.dev/@wesdollar/dollar-ui.auth.apple/-/@wesdollar-dollar-ui.auth.apple-0.0.21.tgz#c0d6b1e87a3da6c39510bd0b675d54e4df3f6366"
-  integrity sha1-wNax6Ho9psOVEL0LZ11U5N8/Y2Y=
-  dependencies:
-    "@material-ui/icons" "4.11.2"
-    "@wesdollar/dollar-ui.auth.firebase-auth-base" "2.0.11"
+    "@wesdollar/dollar-ui.auth.firebase-auth-base" "2.0.13"
     "@wesdollar/dollar-ui.ui.buttons.button" "0.0.6"
     core-js "^3.0.0"
     prop-types "15.7.2"
 
-"@wesdollar/dollar-ui.auth.apple@0.0.22":
-  version "0.0.22"
-  resolved "https://node.bit.dev/@wesdollar/dollar-ui.auth.apple/-/@wesdollar-dollar-ui.auth.apple-0.0.22.tgz#951ee6e4a405a2426422e7276bf5ebf67001678a"
-  integrity sha1-lR7m5KQFokJkIucna/Xr9nABZ4o=
-  dependencies:
-    "@material-ui/icons" "4.11.2"
-    "@wesdollar/dollar-ui.auth.firebase-auth-base" "2.0.12"
-    "@wesdollar/dollar-ui.ui.buttons.button" "0.0.6"
-    core-js "^3.0.0"
-    prop-types "15.7.2"
-
-"@wesdollar/dollar-ui.auth.firebase-auth-base@2.0.11", "@wesdollar/dollar-ui.auth.firebase-auth-base@^2.0.11":
-  version "2.0.11"
-  resolved "https://node.bit.dev/@wesdollar/dollar-ui.auth.firebase-auth-base/-/@wesdollar-dollar-ui.auth.firebase-auth-base-2.0.11.tgz#44214961b69d9e89437647cbc33f46283c490db6"
-  integrity sha1-RCFJYbadnolDdkfLwz9GKDxJDbY=
+"@wesdollar/dollar-ui.auth.firebase-auth-base@2.0.13", "@wesdollar/dollar-ui.auth.firebase-auth-base@^2.0.13":
+  version "2.0.13"
+  resolved "https://node.bit.dev/@wesdollar/dollar-ui.auth.firebase-auth-base/-/@wesdollar-dollar-ui.auth.firebase-auth-base-2.0.13.tgz#87f54c9b4ce4b5c35b8f3f8bd92eff374f294c17"
+  integrity sha1-h/VMm0zktcNbjz+L2S7/N08pTBc=
   dependencies:
     "@material-ui/styles" "4.11.4"
     "@wesdollar/dollar-crypto.dollar-crypto.constants.material-ui-theme" "0.0.4"
     "@wesdollar/dollar-ui.ui.buttons.button" "0.0.6"
-    "@wesdollar/dollar-ui.ui.loading" "0.0.4"
+    "@wesdollar/dollar-ui.ui.loading" "0.0.6"
     core-js "^3.0.0"
     firebase "9.0.0"
     prop-types "15.7.2"
     styled-components "5.3.0"
 
-"@wesdollar/dollar-ui.auth.firebase-auth-base@2.0.12":
-  version "2.0.12"
-  resolved "https://node.bit.dev/@wesdollar/dollar-ui.auth.firebase-auth-base/-/@wesdollar-dollar-ui.auth.firebase-auth-base-2.0.12.tgz#329eb9f026f5d7a88f8e7fe8505d229527a1081b"
-  integrity sha1-Mp658Cb116iPjn/oUF0ilSehCBs=
-  dependencies:
-    "@material-ui/styles" "4.11.4"
-    "@wesdollar/dollar-crypto.dollar-crypto.constants.material-ui-theme" "0.0.4"
-    "@wesdollar/dollar-ui.ui.buttons.button" "0.0.6"
-    "@wesdollar/dollar-ui.ui.loading" "0.0.5"
-    core-js "^3.0.0"
-    firebase "9.0.0"
-    prop-types "15.7.2"
-    styled-components "5.3.0"
-
-"@wesdollar/dollar-ui.auth.github@1.0.35", "@wesdollar/dollar-ui.auth.github@^1.0.35":
-  version "1.0.35"
-  resolved "https://node.bit.dev/@wesdollar/dollar-ui.auth.github/-/@wesdollar-dollar-ui.auth.github-1.0.35.tgz#a060e4c4e5d5543ffb5393e368ba66009f8548cc"
-  integrity sha1-oGDkxOXVVD/7U5PjaLpmAJ+FSMw=
+"@wesdollar/dollar-ui.auth.github@1.0.37", "@wesdollar/dollar-ui.auth.github@^1.0.37":
+  version "1.0.37"
+  resolved "https://node.bit.dev/@wesdollar/dollar-ui.auth.github/-/@wesdollar-dollar-ui.auth.github-1.0.37.tgz#b0353d3dbd0a8b8b7372113219056ceac00bb645"
+  integrity sha1-sDU9Pb0Ki4tzchEyGQVs6sALtkU=
   dependencies:
     "@material-ui/icons" "4.11.2"
-    "@wesdollar/dollar-ui.auth.firebase-auth-base" "2.0.11"
-    "@wesdollar/dollar-ui.ui.buttons.button" "0.0.6"
-    core-js "^3.0.0"
-    prop-types "15.7.2"
-
-"@wesdollar/dollar-ui.auth.github@1.0.36":
-  version "1.0.36"
-  resolved "https://node.bit.dev/@wesdollar/dollar-ui.auth.github/-/@wesdollar-dollar-ui.auth.github-1.0.36.tgz#0ccb24e20f975a56c4bf4daeaa3433172a2d5132"
-  integrity sha1-DMsk4g+XWlbEv02uqjQzFyotUTI=
-  dependencies:
-    "@material-ui/icons" "4.11.2"
-    "@wesdollar/dollar-ui.auth.firebase-auth-base" "2.0.12"
+    "@wesdollar/dollar-ui.auth.firebase-auth-base" "2.0.13"
     "@wesdollar/dollar-ui.ui.buttons.button" "0.0.6"
     core-js "^3.0.0"
     prop-types "15.7.2"
@@ -3084,12 +3046,12 @@
   dependencies:
     "@wesdollar/dollar-ui.constants.colors" "0.0.1"
 
-"@wesdollar/dollar-ui.crypto.list-wallets@0.0.7":
-  version "0.0.7"
-  resolved "https://node.bit.dev/@wesdollar/dollar-ui.crypto.list-wallets/-/@wesdollar-dollar-ui.crypto.list-wallets-0.0.7.tgz#59986d0dc89c04a52f5eaa379f2cfb08975f9e20"
-  integrity sha1-WZhtDcicBKUvXqo3nyz7CJdfniA=
+"@wesdollar/dollar-ui.crypto.list-wallets@0.0.8":
+  version "0.0.8"
+  resolved "https://node.bit.dev/@wesdollar/dollar-ui.crypto.list-wallets/-/@wesdollar-dollar-ui.crypto.list-wallets-0.0.8.tgz#8be72a11c5b8ff20f02bcb4f831a546cd11c06ca"
+  integrity sha1-i+cqEcW4/yDwK8tPgxpUbNEcBso=
   dependencies:
-    "@wesdollar/dollar-ui.crypto.wallet-summary" "0.0.7"
+    "@wesdollar/dollar-ui.crypto.wallet-summary" "0.0.8"
     "@wesdollar/dollar-ui.test-data.crypto.resources.profits" "0.0.3"
     "@wesdollar/dollar-ui.ui.tile" "0.0.6"
     core-js "^3.0.0"
@@ -3113,16 +3075,17 @@
     prop-types "15.7.2"
     styled-components "5.3.0"
 
-"@wesdollar/dollar-ui.crypto.wallet-summary@0.0.7":
-  version "0.0.7"
-  resolved "https://node.bit.dev/@wesdollar/dollar-ui.crypto.wallet-summary/-/@wesdollar-dollar-ui.crypto.wallet-summary-0.0.7.tgz#9411cafb2a62aa4c2fd1ef4c7a75741e4cc7e94a"
-  integrity sha1-lBHK+ypiqkwv0e9MenV0HkzH6Uo=
+"@wesdollar/dollar-ui.crypto.wallet-summary@0.0.8":
+  version "0.0.8"
+  resolved "https://node.bit.dev/@wesdollar/dollar-ui.crypto.wallet-summary/-/@wesdollar-dollar-ui.crypto.wallet-summary-0.0.8.tgz#5d1c58ebda526884391fcb3b38659eebcb66dd2f"
+  integrity sha1-XRxY69pSaIQ5H8s7OGWe68tm3S8=
   dependencies:
     "@material-ui/icons" "4.11.2"
     "@wesdollar/crypto-logos.amp" "0.0.1"
     "@wesdollar/crypto-logos.eth" "0.0.1"
     "@wesdollar/crypto-logos.uni" "0.0.1"
     "@wesdollar/crypto-logos.xlm" "0.0.1"
+    "@wesdollar/dollar-crypto.logo.logo-png-sm" "0.0.1"
     "@wesdollar/dollar-ui.constants.font-sizes" "0.0.1"
     "@wesdollar/dollar-ui.constants.gutters" "0.0.3"
     "@wesdollar/dollar-ui.test-data.crypto.resources.profits" "0.0.3"
@@ -3202,13 +3165,13 @@
     prop-types "15.7.2"
     styled-components "5.3.0"
 
-"@wesdollar/dollar-ui.ui.error-state@0.0.3":
-  version "0.0.3"
-  resolved "https://node.bit.dev/@wesdollar/dollar-ui.ui.error-state/-/@wesdollar-dollar-ui.ui.error-state-0.0.3.tgz#35ed2bd152317949d5e72e6621d5063edc5c6bef"
-  integrity sha1-Ne0r0VIxeUnV5y5mIdUGPtxca+8=
+"@wesdollar/dollar-ui.ui.error-state@0.0.5":
+  version "0.0.5"
+  resolved "https://node.bit.dev/@wesdollar/dollar-ui.ui.error-state/-/@wesdollar-dollar-ui.ui.error-state-0.0.5.tgz#e46df269761af01c9fb96e93e818fe73a442abcc"
+  integrity sha1-5G3yaXYa8ByfuW6T6Bj+c6RCq8w=
   dependencies:
     "@wesdollar/dollar-ui.ui.centered-viewport" "0.0.1"
-    "@wesdollar/dollar-ui.ui.mobile-container" "0.0.3"
+    "@wesdollar/dollar-ui.ui.mobile-container" "0.0.4"
     "@wesdollar/dollar-ui.ui.space" "0.0.4"
     "@wesdollar/dollar-ui.ui.tile" "0.0.6"
     "@wesdollar/dollar-ui.ui.typography.body1" "0.0.1"
@@ -3225,20 +3188,10 @@
     core-js "^3.0.0"
     prop-types "15.7.2"
 
-"@wesdollar/dollar-ui.ui.loading@0.0.4", "@wesdollar/dollar-ui.ui.loading@^0.0.4":
-  version "0.0.4"
-  resolved "https://node.bit.dev/@wesdollar/dollar-ui.ui.loading/-/@wesdollar-dollar-ui.ui.loading-0.0.4.tgz#0fc6c475627b383843119d5cb16f77442063e703"
-  integrity sha1-D8bEdWJ7ODhDEZ1csW93RCBj5wM=
-  dependencies:
-    "@material-ui/core" "4.12.2"
-    core-js "^3.0.0"
-    prop-types "15.7.2"
-    styled-components "5.3.0"
-
-"@wesdollar/dollar-ui.ui.loading@0.0.5":
-  version "0.0.5"
-  resolved "https://node.bit.dev/@wesdollar/dollar-ui.ui.loading/-/@wesdollar-dollar-ui.ui.loading-0.0.5.tgz#268b84204efa15574560f6ef6518f5b76e8adceb"
-  integrity sha1-JouEIE76FVdFYPbvZRj1t26K3Os=
+"@wesdollar/dollar-ui.ui.loading@0.0.6", "@wesdollar/dollar-ui.ui.loading@^0.0.6":
+  version "0.0.6"
+  resolved "https://node.bit.dev/@wesdollar/dollar-ui.ui.loading/-/@wesdollar-dollar-ui.ui.loading-0.0.6.tgz#5bc41db97c4877e33d761c6c86f73e78b8f90c25"
+  integrity sha1-W8QduXxId+M9dhxshvc+eLj5DCU=
   dependencies:
     "@material-ui/core" "4.12.2"
     "@material-ui/styles" "4.11.4"
@@ -3247,13 +3200,14 @@
     prop-types "15.7.2"
     styled-components "5.3.0"
 
-"@wesdollar/dollar-ui.ui.mobile-container@0.0.3", "@wesdollar/dollar-ui.ui.mobile-container@^0.0.3":
-  version "0.0.3"
-  resolved "https://node.bit.dev/@wesdollar/dollar-ui.ui.mobile-container/-/@wesdollar-dollar-ui.ui.mobile-container-0.0.3.tgz#302d1ca70a346ada4bc4d8daa29c28683030262b"
-  integrity sha1-MC0cpwo0atpLxNjaopwoaDAwJis=
+"@wesdollar/dollar-ui.ui.mobile-container@0.0.4", "@wesdollar/dollar-ui.ui.mobile-container@^0.0.4":
+  version "0.0.4"
+  resolved "https://node.bit.dev/@wesdollar/dollar-ui.ui.mobile-container/-/@wesdollar-dollar-ui.ui.mobile-container-0.0.4.tgz#976189295272255e8724e1fc1c4a7a7b5a50d21e"
+  integrity sha1-l2GJKVJyJV6HJOH8HEp6e1pQ0h4=
   dependencies:
+    "@wesdollar/dollar-ui.ui.centered-viewport" "0.0.1"
+    "@wesdollar/dollar-ui.ui.view-container" "0.0.4"
     core-js "^3.0.0"
-    prop-types "15.7.2"
     styled-components "5.3.0"
 
 "@wesdollar/dollar-ui.ui.number-display@0.0.2":
@@ -3335,39 +3289,20 @@
     prop-types "15.7.2"
     styled-components "5.3.0"
 
-"@wesdollar/dollar-ui.views.dashboard@0.0.22", "@wesdollar/dollar-ui.views.dashboard@^0.0.22":
-  version "0.0.22"
-  resolved "https://node.bit.dev/@wesdollar/dollar-ui.views.dashboard/-/@wesdollar-dollar-ui.views.dashboard-0.0.22.tgz#219abe920cf53ba00995a484d2fb8ae8dba3c66f"
-  integrity sha1-IZq+kgz1O6AJlaSE0vuK6Nujxm8=
-  dependencies:
-    "@wesdollar/dollar-crypto.dollar-crypto.constants.colors" "0.0.3"
-    "@wesdollar/dollar-ui.action-buttons.refresh" "0.0.4"
-    "@wesdollar/dollar-ui.constants.gutters" "0.0.3"
-    "@wesdollar/dollar-ui.crypto.list-wallets" "0.0.7"
-    "@wesdollar/dollar-ui.crypto.summary-tile" "0.0.8"
-    "@wesdollar/dollar-ui.test-data.crypto.resources.profits" "0.0.3"
-    "@wesdollar/dollar-ui.ui.action-buttons.logout" "0.0.1"
-    "@wesdollar/dollar-ui.ui.loading" "0.0.4"
-    "@wesdollar/dollar-ui.ui.space" "0.0.4"
-    "@wesdollar/dollar-ui.ui.view-container" "0.0.4"
-    core-js "^3.0.0"
-    prop-types "15.7.2"
-    styled-components "5.3.0"
-
-"@wesdollar/dollar-ui.views.dashboard@0.0.23":
-  version "0.0.23"
-  resolved "https://node.bit.dev/@wesdollar/dollar-ui.views.dashboard/-/@wesdollar-dollar-ui.views.dashboard-0.0.23.tgz#49fb968b21d9f4606ace42e8e494f513e87a9198"
-  integrity sha1-SfuWiyHZ9GBqzkLo5JT1E+h6kZg=
+"@wesdollar/dollar-ui.views.dashboard@0.0.25", "@wesdollar/dollar-ui.views.dashboard@^0.0.25":
+  version "0.0.25"
+  resolved "https://node.bit.dev/@wesdollar/dollar-ui.views.dashboard/-/@wesdollar-dollar-ui.views.dashboard-0.0.25.tgz#eebb2f7fff5e9857241e62a181653d6d9090ee32"
+  integrity sha1-7rsvf/9emFckHmKhgWU9bZCQ7jI=
   dependencies:
     "@material-ui/icons" "4.11.2"
     "@wesdollar/dollar-crypto.dollar-crypto.constants.colors" "0.0.3"
-    "@wesdollar/dollar-ui.action-buttons.refresh" "0.0.5"
+    "@wesdollar/dollar-ui.action-buttons.refresh" "0.0.6"
     "@wesdollar/dollar-ui.constants.gutters" "0.0.3"
-    "@wesdollar/dollar-ui.crypto.list-wallets" "0.0.7"
+    "@wesdollar/dollar-ui.crypto.list-wallets" "0.0.8"
     "@wesdollar/dollar-ui.crypto.summary-tile" "0.0.8"
     "@wesdollar/dollar-ui.test-data.crypto.resources.profits" "0.0.3"
     "@wesdollar/dollar-ui.ui.action-buttons.logout" "0.0.1"
-    "@wesdollar/dollar-ui.ui.loading" "0.0.5"
+    "@wesdollar/dollar-ui.ui.loading" "0.0.6"
     "@wesdollar/dollar-ui.ui.space" "0.0.4"
     "@wesdollar/dollar-ui.ui.typography.body2" "0.0.1"
     "@wesdollar/dollar-ui.ui.view-container" "0.0.4"
