@@ -1272,27 +1272,10 @@
     "@firebase/util" "1.3.0"
     tslib "^2.1.0"
 
-"@firebase/analytics-types@0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@firebase/analytics-types/-/analytics-types-0.6.0.tgz#164116ebe8d3b338272acc7f9904cac38556d6cd"
-  integrity sha512-kbMawY0WRPyL/lbknBkme4CNLl+Gw+E9G4OpNeXAauqoQiNkBgpIvZYy7BRT4sNGhZbxdxXxXbruqUwDzLmvTw==
-
 "@firebase/analytics-types@0.7.0":
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/@firebase/analytics-types/-/analytics-types-0.7.0.tgz#91960e7c87ce8bf18cf8dd9e55ccbf5dc3989b5d"
   integrity sha512-DNE2Waiwy5+zZnCfintkDtBfaW6MjIG883474v6Z0K1XZIvl76cLND4iv0YUb48leyF+PJK1KO2XrgHb/KpmhQ==
-
-"@firebase/analytics@0.6.18":
-  version "0.6.18"
-  resolved "https://registry.yarnpkg.com/@firebase/analytics/-/analytics-0.6.18.tgz#0dd36861d9ded60038687f1b03cb0e4b77dd72ce"
-  integrity sha512-FXNtYDxbs9ynPbzUVuG94BjFPOPpgJ7156660uvCBuKgoBCIVcNqKkJQQ7TH8384fqvGjbjdcgARY9jgAHbtog==
-  dependencies:
-    "@firebase/analytics-types" "0.6.0"
-    "@firebase/component" "0.5.6"
-    "@firebase/installations" "0.4.32"
-    "@firebase/logger" "0.2.6"
-    "@firebase/util" "1.3.0"
-    tslib "^2.1.0"
 
 "@firebase/analytics@0.7.0":
   version "0.7.0"
@@ -1321,23 +1304,6 @@
   resolved "https://registry.yarnpkg.com/@firebase/app-check-interop-types/-/app-check-interop-types-0.1.0.tgz#83afd9d41f99166c2bdb2d824e5032e9edd8fe53"
   integrity sha512-uZfn9s4uuRsaX5Lwx+gFP3B6YsyOKUE+Rqa6z9ojT4VSRAsZFko9FRn6OxQUA1z5t5d08fY4pf+/+Dkd5wbdbA==
 
-"@firebase/app-check-types@0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@firebase/app-check-types/-/app-check-types-0.3.1.tgz#1084723debad3ad9e7997d3b356165d275c25fcc"
-  integrity sha512-KJ+BqJbdNsx4QT/JIT1yDj5p6D+QN97iJs3GuHnORrqL+DU3RWc9nSYQsrY6Tv9jVWcOkMENXAgDT484vzsm2w==
-
-"@firebase/app-check@0.3.2":
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/@firebase/app-check/-/app-check-0.3.2.tgz#a8fa98bf35ea309458feb12739fcbf00c70ee5ef"
-  integrity sha512-YjpsnV1xVTO1B836IKijRcDeceLgHQNJ/DWa+Vky9UHkm1Mi4qosddX8LZzldaWRTWKX7BN1MbZOLY8r7M/MZQ==
-  dependencies:
-    "@firebase/app-check-interop-types" "0.1.0"
-    "@firebase/app-check-types" "0.3.1"
-    "@firebase/component" "0.5.6"
-    "@firebase/logger" "0.2.6"
-    "@firebase/util" "1.3.0"
-    tslib "^2.1.0"
-
 "@firebase/app-check@0.4.0":
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/@firebase/app-check/-/app-check-0.4.0.tgz#a048fc396b2a97ef8eba77fe909efbff07a5c75c"
@@ -1359,28 +1325,10 @@
     "@firebase/util" "1.3.0"
     tslib "^2.1.0"
 
-"@firebase/app-types@0.6.3":
-  version "0.6.3"
-  resolved "https://registry.yarnpkg.com/@firebase/app-types/-/app-types-0.6.3.tgz#3f10514786aad846d74cd63cb693556309918f4b"
-  integrity sha512-/M13DPPati7FQHEQ9Minjk1HGLm/4K4gs9bR4rzLCWJg64yGtVC0zNg9gDpkw9yc2cvol/mNFxqTtd4geGrwdw==
-
 "@firebase/app-types@0.7.0":
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/@firebase/app-types/-/app-types-0.7.0.tgz#c9e16d1b8bed1a991840b8d2a725fb58d0b5899f"
   integrity sha512-6fbHQwDv2jp/v6bXhBw2eSRbNBpxHcd1NBF864UksSMVIqIyri9qpJB1Mn6sGZE+bnDsSQBC5j2TbMxYsJQkQg==
-
-"@firebase/app@0.6.30":
-  version "0.6.30"
-  resolved "https://registry.yarnpkg.com/@firebase/app/-/app-0.6.30.tgz#c7ff8c9c341e344366f510fcce7498d2e0fd5373"
-  integrity sha512-uAYEDXyK0mmpZ8hWQj5TNd7WVvfsU8PgsqKpGljbFBG/HhsH8KbcykWAAA+c1PqL7dt/dbt0Reh1y9zEdYzMhg==
-  dependencies:
-    "@firebase/app-types" "0.6.3"
-    "@firebase/component" "0.5.6"
-    "@firebase/logger" "0.2.6"
-    "@firebase/util" "1.3.0"
-    dom-storage "2.1.0"
-    tslib "^2.1.0"
-    xmlhttprequest "1.8.0"
 
 "@firebase/app@0.7.0":
   version "0.7.0"
@@ -1410,22 +1358,10 @@
   resolved "https://registry.yarnpkg.com/@firebase/auth-interop-types/-/auth-interop-types-0.1.6.tgz#5ce13fc1c527ad36f1bb1322c4492680a6cf4964"
   integrity sha512-etIi92fW3CctsmR9e3sYM3Uqnoq861M0Id9mdOPF6PWIg38BXL5k4upCNBggGUpLIS0H1grMOvy/wn1xymwe2g==
 
-"@firebase/auth-types@0.10.3":
-  version "0.10.3"
-  resolved "https://registry.yarnpkg.com/@firebase/auth-types/-/auth-types-0.10.3.tgz#2be7dd93959c8f5304c63e09e98718e103464d8c"
-  integrity sha512-zExrThRqyqGUbXOFrH/sowuh2rRtfKHp9SBVY2vOqKWdCX1Ztn682n9WLtlUDsiYVIbBcwautYWk2HyCGFv0OA==
-
 "@firebase/auth-types@0.11.0":
   version "0.11.0"
   resolved "https://registry.yarnpkg.com/@firebase/auth-types/-/auth-types-0.11.0.tgz#b9c73c60ca07945b3bbd7a097633e5f78fa9e886"
   integrity sha512-q7Bt6cx+ySj9elQHTsKulwk3+qDezhzRBFC9zlQ1BjgMueUOnGMcvqmU0zuKlQ4RhLSH7MNAdBV2znVaoN3Vxw==
-
-"@firebase/auth@0.16.8":
-  version "0.16.8"
-  resolved "https://registry.yarnpkg.com/@firebase/auth/-/auth-0.16.8.tgz#4edd44673d3711e94cfa1e6b03883214ae1f2255"
-  integrity sha512-mR0UXG4LirWIfOiCWxVmvz1o23BuKGxeItQ2cCUgXLTjNtWJXdcky/356iTUsd7ZV5A78s2NHeN5tIDDG6H4rg==
-  dependencies:
-    "@firebase/auth-types" "0.10.3"
 
 "@firebase/auth@0.17.0":
   version "0.17.0"
@@ -1459,14 +1395,6 @@
     "@firebase/util" "1.3.0"
     tslib "^2.1.0"
 
-"@firebase/database-types@0.8.0":
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/@firebase/database-types/-/database-types-0.8.0.tgz#3cc8b292795ed268cd40a521f45a957b951189a5"
-  integrity sha512-7IdjAFRfPWyG3b4wcXyghb3Y1CLCSJFZIg1xl5GbTVMttSQFT4B5NYdhsfA34JwAsv5pMzPpjOaS3/K9XJ2KiA==
-  dependencies:
-    "@firebase/app-types" "0.6.3"
-    "@firebase/util" "1.3.0"
-
 "@firebase/database-types@0.9.0":
   version "0.9.0"
   resolved "https://registry.yarnpkg.com/@firebase/database-types/-/database-types-0.9.0.tgz#dad3db745531f40b60f7726a76b2bf6bbf6c6471"
@@ -1474,19 +1402,6 @@
   dependencies:
     "@firebase/app-types" "0.7.0"
     "@firebase/util" "1.3.0"
-
-"@firebase/database@0.11.0":
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/@firebase/database/-/database-0.11.0.tgz#c0f6a9dd9549d0ecd2b71a3a71db487854895bfc"
-  integrity sha512-b/kwvCubr6G9coPlo48PbieBDln7ViFBHOGeVt/bt82yuv5jYZBEYAac/mtOVSxpf14aMo/tAN+Edl6SWqXApw==
-  dependencies:
-    "@firebase/auth-interop-types" "0.1.6"
-    "@firebase/component" "0.5.6"
-    "@firebase/database-types" "0.8.0"
-    "@firebase/logger" "0.2.6"
-    "@firebase/util" "1.3.0"
-    faye-websocket "0.11.3"
-    tslib "^2.1.0"
 
 "@firebase/database@0.12.0":
   version "0.12.0"
@@ -1511,30 +1426,10 @@
     "@firebase/util" "1.3.0"
     tslib "^2.1.0"
 
-"@firebase/firestore-types@2.4.0":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@firebase/firestore-types/-/firestore-types-2.4.0.tgz#6e6501e953a9a7fc00a7dfd7de5bb7a248b89d7c"
-  integrity sha512-0dgwfuNP7EN6/OlK2HSNSQiQNGLGaRBH0gvgr1ngtKKJuJFuq0Z48RBMeJX9CGjV4TP9h2KaB+KrUKJ5kh1hMg==
-
 "@firebase/firestore-types@2.5.0":
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/@firebase/firestore-types/-/firestore-types-2.5.0.tgz#16fca40b6980fdb000de86042d7a96635f2bcdd7"
   integrity sha512-I6c2m1zUhZ5SH0cWPmINabDyH5w0PPFHk2UHsjBpKdZllzJZ2TwTkXbDtpHUZNmnc/zAa0WNMNMvcvbb/xJLKA==
-
-"@firebase/firestore@2.4.0":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@firebase/firestore/-/firestore-2.4.0.tgz#f48282f70c36e43e8f8782f368972515efef5177"
-  integrity sha512-PQ6+lWNrvh74GvFTHT4gCutFipDmtu8D1tNNawKe+/SyL6XFgeuMYgZIpKQgkTSezVDogC7EGQTJBFnewF9pOg==
-  dependencies:
-    "@firebase/component" "0.5.6"
-    "@firebase/firestore-types" "2.4.0"
-    "@firebase/logger" "0.2.6"
-    "@firebase/util" "1.3.0"
-    "@firebase/webchannel-wrapper" "0.5.1"
-    "@grpc/grpc-js" "^1.3.2"
-    "@grpc/proto-loader" "^0.6.0"
-    node-fetch "2.6.1"
-    tslib "^2.1.0"
 
 "@firebase/firestore@3.0.0":
   version "3.0.0"
@@ -1561,26 +1456,10 @@
     "@firebase/util" "1.3.0"
     tslib "^2.1.0"
 
-"@firebase/functions-types@0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@firebase/functions-types/-/functions-types-0.4.0.tgz#0b789f4fe9a9c0b987606c4da10139345b40f6b9"
-  integrity sha512-3KElyO3887HNxtxNF1ytGFrNmqD+hheqjwmT3sI09FaDCuaxGbOnsXAXH2eQ049XRXw9YQpHMgYws/aUNgXVyQ==
-
 "@firebase/functions-types@0.5.0":
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/@firebase/functions-types/-/functions-types-0.5.0.tgz#b50ba95ccce9e96f7cda453228ffe1684645625b"
   integrity sha512-qza0M5EwX+Ocrl1cYI14zoipUX4gI/Shwqv0C1nB864INAD42Dgv4v94BCyxGHBg2kzlWy8PNafdP7zPO8aJQA==
-
-"@firebase/functions@0.6.15":
-  version "0.6.15"
-  resolved "https://registry.yarnpkg.com/@firebase/functions/-/functions-0.6.15.tgz#8b0b1b11947e61e55522af07ee4aa7f5d9954bab"
-  integrity sha512-b7RpLwFXi0N+HgkfK8cmkarSOoBeSrc1jNdadkCacQt+vIePkKM3E9EJXF4roWSa8GwTruodpBsvH+lK9iCAKQ==
-  dependencies:
-    "@firebase/component" "0.5.6"
-    "@firebase/functions-types" "0.4.0"
-    "@firebase/messaging-types" "0.5.0"
-    node-fetch "2.6.1"
-    tslib "^2.1.0"
 
 "@firebase/functions@0.7.0":
   version "0.7.0"
@@ -1593,22 +1472,6 @@
     "@firebase/messaging-interop-types" "0.1.0"
     "@firebase/util" "1.3.0"
     node-fetch "2.6.1"
-    tslib "^2.1.0"
-
-"@firebase/installations-types@0.3.4":
-  version "0.3.4"
-  resolved "https://registry.yarnpkg.com/@firebase/installations-types/-/installations-types-0.3.4.tgz#589a941d713f4f64bf9f4feb7f463505bab1afa2"
-  integrity sha512-RfePJFovmdIXb6rYwtngyxuEcWnOrzdZd9m7xAW0gRxDIjBT20n3BOhjpmgRWXo/DAxRmS7bRjWAyTHY9cqN7Q==
-
-"@firebase/installations@0.4.32":
-  version "0.4.32"
-  resolved "https://registry.yarnpkg.com/@firebase/installations/-/installations-0.4.32.tgz#aefc27710b2386de39355293021ca94bd545ae0a"
-  integrity sha512-K4UlED1Vrhd2rFQQJih+OgEj8OTtrtH4+Izkx7ip2bhXSc+unk8ZhnF69D0kmh7zjXAqEDJrmHs9O5fI3rV6Tw==
-  dependencies:
-    "@firebase/component" "0.5.6"
-    "@firebase/installations-types" "0.3.4"
-    "@firebase/util" "1.3.0"
-    idb "3.0.2"
     tslib "^2.1.0"
 
 "@firebase/installations@0.5.0":
@@ -1641,23 +1504,6 @@
   resolved "https://registry.yarnpkg.com/@firebase/messaging-interop-types/-/messaging-interop-types-0.1.0.tgz#bdac02dd31edd5cb9eec37b1db698ea5e2c1a631"
   integrity sha512-DbvUl/rXAZpQeKBnwz0NYY5OCqr2nFA0Bj28Fmr3NXGqR4PAkfTOHuQlVtLO1Nudo3q0HxAYLa68ZDAcuv2uKQ==
 
-"@firebase/messaging-types@0.5.0":
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/@firebase/messaging-types/-/messaging-types-0.5.0.tgz#c5d0ef309ced1758fda93ef3ac70a786de2e73c4"
-  integrity sha512-QaaBswrU6umJYb/ZYvjR5JDSslCGOH6D9P136PhabFAHLTR4TWjsaACvbBXuvwrfCXu10DtcjMxqfhdNIB1Xfg==
-
-"@firebase/messaging@0.8.0":
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/@firebase/messaging/-/messaging-0.8.0.tgz#ab188bf25659e1bc048164fdcc99caa3ba820d22"
-  integrity sha512-hkFHDyVe1kMcY9KEG+prjCbvS6MtLUgVFUbbQqq7JQfiv58E07YCzRUcMrJolbNi/1QHH6Jv16DxNWjJB9+/qA==
-  dependencies:
-    "@firebase/component" "0.5.6"
-    "@firebase/installations" "0.4.32"
-    "@firebase/messaging-types" "0.5.0"
-    "@firebase/util" "1.3.0"
-    idb "3.0.2"
-    tslib "^2.1.0"
-
 "@firebase/messaging@0.9.0":
   version "0.9.0"
   resolved "https://registry.yarnpkg.com/@firebase/messaging/-/messaging-0.9.0.tgz#a868bea75d0c26210903178cf22d31c47bc84584"
@@ -1682,27 +1528,10 @@
     "@firebase/util" "1.3.0"
     tslib "^2.1.0"
 
-"@firebase/performance-types@0.0.13":
-  version "0.0.13"
-  resolved "https://registry.yarnpkg.com/@firebase/performance-types/-/performance-types-0.0.13.tgz#58ce5453f57e34b18186f74ef11550dfc558ede6"
-  integrity sha512-6fZfIGjQpwo9S5OzMpPyqgYAUZcFzZxHFqOyNtorDIgNXq33nlldTL/vtaUZA8iT9TT5cJlCrF/jthKU7X21EA==
-
 "@firebase/performance-types@0.1.0":
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/@firebase/performance-types/-/performance-types-0.1.0.tgz#5e6efa9dc81860aee2cb7121b39ae8fa137e69fc"
   integrity sha512-6p1HxrH0mpx+622Ql6fcxFxfkYSBpE3LSuwM7iTtYU2nw91Hj6THC8Bc8z4nboIq7WvgsT/kOTYVVZzCSlXl8w==
-
-"@firebase/performance@0.4.18":
-  version "0.4.18"
-  resolved "https://registry.yarnpkg.com/@firebase/performance/-/performance-0.4.18.tgz#d9cd2311b5af2968c8a580cdc869a0ed6fb9cb1f"
-  integrity sha512-lvZW/TVDne2TyOpWbv++zjRn277HZpbjxbIPfwtnmKjVY1gJ+H77Qi1c2avVIc9hg80uGX/5tNf4pOApNDJLVg==
-  dependencies:
-    "@firebase/component" "0.5.6"
-    "@firebase/installations" "0.4.32"
-    "@firebase/logger" "0.2.6"
-    "@firebase/performance-types" "0.0.13"
-    "@firebase/util" "1.3.0"
-    tslib "^2.1.0"
 
 "@firebase/performance@0.5.0":
   version "0.5.0"
@@ -1736,27 +1565,10 @@
     "@firebase/util" "1.3.0"
     tslib "^2.1.0"
 
-"@firebase/remote-config-types@0.1.9":
-  version "0.1.9"
-  resolved "https://registry.yarnpkg.com/@firebase/remote-config-types/-/remote-config-types-0.1.9.tgz#fe6bbe4d08f3b6e92fce30e4b7a9f4d6a96d6965"
-  integrity sha512-G96qnF3RYGbZsTRut7NBX0sxyczxt1uyCgXQuH/eAfUCngxjEGcZQnBdy6mvSdqdJh5mC31rWPO4v9/s7HwtzA==
-
 "@firebase/remote-config-types@0.2.0":
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/@firebase/remote-config-types/-/remote-config-types-0.2.0.tgz#1e2759fc01f20b58c564db42196f075844c3d1fd"
   integrity sha512-hqK5sCPeZvcHQ1D6VjJZdW6EexLTXNMJfPdTwbD8NrXUw6UjWC4KWhLK/TSlL0QPsQtcKRkaaoP+9QCgKfMFPw==
-
-"@firebase/remote-config@0.1.43":
-  version "0.1.43"
-  resolved "https://registry.yarnpkg.com/@firebase/remote-config/-/remote-config-0.1.43.tgz#c49587fcb6a90d2675071cf2b8ad46eff1c89053"
-  integrity sha512-laNM4MN0CfeSp7XCVNjYOC4DdV6mj0l2rzUh42x4v2wLTweCoJ/kc1i4oWMX9TI7Jw8Am5Wl71Awn1J2pVe5xA==
-  dependencies:
-    "@firebase/component" "0.5.6"
-    "@firebase/installations" "0.4.32"
-    "@firebase/logger" "0.2.6"
-    "@firebase/remote-config-types" "0.1.9"
-    "@firebase/util" "1.3.0"
-    tslib "^2.1.0"
 
 "@firebase/remote-config@0.2.0":
   version "0.2.0"
@@ -1780,26 +1592,10 @@
     "@firebase/util" "1.3.0"
     tslib "^2.1.0"
 
-"@firebase/storage-types@0.5.0":
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/@firebase/storage-types/-/storage-types-0.5.0.tgz#5108afc0df4b1d20c27f2a7f68af2ec2827619c2"
-  integrity sha512-6Wv3Lu7s18hsgW7HG4BFwycTquZ3m/C8bjBoOsmPu0TD6M1GKwCzOC7qBdN7L6tRYPh8ipTj5+rPFrmhGfUVKA==
-
 "@firebase/storage-types@0.6.0":
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/@firebase/storage-types/-/storage-types-0.6.0.tgz#0b1af64a2965af46fca138e5b70700e9b7e6312a"
   integrity sha512-1LpWhcCb1ftpkP/akhzjzeFxgVefs6eMD2QeKiJJUGH1qOiows2w5o0sKCUSQrvrRQS1lz3SFGvNR1Ck/gqxeA==
-
-"@firebase/storage@0.7.0":
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/@firebase/storage/-/storage-0.7.0.tgz#7f9d10ce0b86a3dd9604ea287f8e75dddc369fbf"
-  integrity sha512-ebDFKJbM5HOxVtZV+RhVEBVtlWHK+Z5L3kA5uDBA2jMYcn+8NV/crozJnEE+iRsGEco6dLK5JS+Er4qtKLpH5A==
-  dependencies:
-    "@firebase/component" "0.5.6"
-    "@firebase/storage-types" "0.5.0"
-    "@firebase/util" "1.3.0"
-    node-fetch "2.6.1"
-    tslib "^2.1.0"
 
 "@firebase/storage@0.8.0":
   version "0.8.0"
@@ -3017,105 +2813,70 @@
   dependencies:
     core-js "^3.0.0"
 
-"@wesdollar/dollar-crypto.dollar-crypto.constants.colors@0.0.1":
-  version "0.0.1"
-  resolved "https://node.bit.dev/@wesdollar/dollar-crypto.dollar-crypto.constants.colors/-/@wesdollar-dollar-crypto.dollar-crypto.constants.colors-0.0.1.tgz#b096a4254be2083ae238fd3bce763fd481395c02"
-  integrity sha1-sJakJUviCDriOP07znY/1IE5XAI=
+"@wesdollar/dollar-crypto.dollar-crypto.constants.colors@0.0.3":
+  version "0.0.3"
+  resolved "https://node.bit.dev/@wesdollar/dollar-crypto.dollar-crypto.constants.colors/-/@wesdollar-dollar-crypto.dollar-crypto.constants.colors-0.0.3.tgz#6226268d0f18b938af2aec8a5a6e26585e4b4698"
+  integrity sha1-YiYmjQ8YuTivKuyKWm4mWF5LRpg=
   dependencies:
     core-js "^3.0.0"
 
-"@wesdollar/dollar-crypto.dollar-crypto.constants.colors@0.0.2":
-  version "0.0.2"
-  resolved "https://node.bit.dev/@wesdollar/dollar-crypto.dollar-crypto.constants.colors/-/@wesdollar-dollar-crypto.dollar-crypto.constants.colors-0.0.2.tgz#4a05fd38d69bfb4bc5bd70f50d4b51a0a3f20311"
-  integrity sha1-SgX9ONab+0vFvXD1DUtRoKPyAxE=
-  dependencies:
-    core-js "^3.0.0"
-
-"@wesdollar/dollar-crypto.dollar-crypto.constants.material-ui-theme@0.0.1":
-  version "0.0.1"
-  resolved "https://node.bit.dev/@wesdollar/dollar-crypto.dollar-crypto.constants.material-ui-theme/-/@wesdollar-dollar-crypto.dollar-crypto.constants.material-ui-theme-0.0.1.tgz#6e612191f20334d2f411e388b293f5cbd28a4cae"
-  integrity sha1-bmEhkfIDNNL0EeOIspP1y9KKTK4=
+"@wesdollar/dollar-crypto.dollar-crypto.constants.material-ui-theme@0.0.4":
+  version "0.0.4"
+  resolved "https://node.bit.dev/@wesdollar/dollar-crypto.dollar-crypto.constants.material-ui-theme/-/@wesdollar-dollar-crypto.dollar-crypto.constants.material-ui-theme-0.0.4.tgz#eb6ff6f52a7c7e26282d831d03152987a5ae54f6"
+  integrity sha1-62/29Sp8fiYoLYMdAxUph6WuVPY=
   dependencies:
     "@material-ui/core" "4.12.2"
-    "@wesdollar/dollar-crypto.dollar-crypto.constants.colors" "0.0.2"
     core-js "^3.0.0"
 
-"@wesdollar/dollar-crypto.dollar-crypto.ui.buttons.button@0.0.3":
-  version "0.0.3"
-  resolved "https://node.bit.dev/@wesdollar/dollar-crypto.dollar-crypto.ui.buttons.button/-/@wesdollar-dollar-crypto.dollar-crypto.ui.buttons.button-0.0.3.tgz#1755cc08833e7a71a31e67a2a4fcfb19cb17e81b"
-  integrity sha1-F1XMCIM+enGjHmeipPz7GcsX6Bs=
+"@wesdollar/dollar-crypto.dollar-crypto.ui.buttons.button@0.0.8", "@wesdollar/dollar-crypto.dollar-crypto.ui.buttons.button@^0.0.8":
+  version "0.0.8"
+  resolved "https://node.bit.dev/@wesdollar/dollar-crypto.dollar-crypto.ui.buttons.button/-/@wesdollar-dollar-crypto.dollar-crypto.ui.buttons.button-0.0.8.tgz#136f46f4b216081868a9ee65264919c337aa34a3"
+  integrity sha1-E29G9LIWCBhoqe5lJkkZwzeqNKM=
   dependencies:
-    "@wesdollar/dollar-crypto.dollar-crypto.constants.colors" "0.0.2"
+    "@material-ui/styles" "4.11.4"
+    "@wesdollar/dollar-crypto.dollar-crypto.constants.colors" "0.0.3"
+    "@wesdollar/dollar-crypto.dollar-crypto.constants.material-ui-theme" "0.0.4"
     "@wesdollar/dollar-ui.constants.prop-types" "0.0.1"
-    "@wesdollar/dollar-ui.ui.buttons.button" "0.0.4"
+    "@wesdollar/dollar-ui.ui.buttons.button" "0.0.6"
     core-js "^3.0.0"
     prop-types "15.7.2"
     styled-components "5.3.0"
 
-"@wesdollar/dollar-crypto.dollar-crypto.ui.buttons.button@^0.0.1":
-  version "0.0.1"
-  resolved "https://node.bit.dev/@wesdollar/dollar-crypto.dollar-crypto.ui.buttons.button/-/@wesdollar-dollar-crypto.dollar-crypto.ui.buttons.button-0.0.1.tgz#1589071fdf310e6780cb8cd84cfc94b3d5b34859"
-  integrity sha1-FYkHH98xDmeAy4zYTPyUs9WzSFk=
+"@wesdollar/dollar-crypto.dollar-crypto.views.login@^2.0.12":
+  version "2.0.12"
+  resolved "https://node.bit.dev/@wesdollar/dollar-crypto.dollar-crypto.views.login/-/@wesdollar-dollar-crypto.dollar-crypto.views.login-2.0.12.tgz#705883fb74c3a2b6301b03ab52b69207461c8cb1"
+  integrity sha1-cFiD+3TDorYwGwOrUraSB0YcjLE=
   dependencies:
-    "@wesdollar/dollar-crypto.dollar-crypto.constants.colors" "0.0.1"
-    "@wesdollar/dollar-ui.constants.prop-types" "0.0.1"
-    "@wesdollar/dollar-ui.ui.buttons.button" "0.0.4"
-    core-js "^3.0.0"
-    prop-types "15.7.2"
-    styled-components "5.3.0"
-
-"@wesdollar/dollar-crypto.dollar-crypto.views.login@^2.0.3":
-  version "2.0.3"
-  resolved "https://node.bit.dev/@wesdollar/dollar-crypto.dollar-crypto.views.login/-/@wesdollar-dollar-crypto.dollar-crypto.views.login-2.0.3.tgz#9a369564751c7972e0465d33d941119ccf4d478e"
-  integrity sha1-mjaVZHUceXLgRl0z2UERnM9NR44=
-  dependencies:
-    "@wesdollar/dollar-crypto.dollar-crypto.ui.buttons.button" "0.0.3"
-    "@wesdollar/dollar-crypto.dollar-crypto.views.set-keys" "0.0.10"
+    "@wesdollar/dollar-crypto.dollar-crypto.ui.buttons.button" "0.0.8"
+    "@wesdollar/dollar-crypto.dollar-crypto.views.set-keys" "0.0.18"
     "@wesdollar/dollar-crypto.logo.logo-png-md" "0.0.1"
-    "@wesdollar/dollar-ui.auth.apple" "0.0.17"
-    "@wesdollar/dollar-ui.auth.github" "1.0.30"
+    "@wesdollar/dollar-ui.auth.apple" "0.0.21"
+    "@wesdollar/dollar-ui.auth.github" "1.0.35"
+    "@wesdollar/dollar-ui.ui.error-state" "0.0.3"
     "@wesdollar/dollar-ui.ui.loading" "0.0.4"
-    "@wesdollar/dollar-ui.ui.space" "0.0.2"
-    "@wesdollar/dollar-ui.views.dashboard" "0.0.18"
+    "@wesdollar/dollar-ui.ui.space" "0.0.4"
+    "@wesdollar/dollar-ui.views.dashboard" "0.0.22"
     core-js "^3.0.0"
     firebase "9.0.0"
     prop-types "15.7.2"
     styled-components "5.3.0"
 
-"@wesdollar/dollar-crypto.dollar-crypto.views.set-keys@0.0.10":
-  version "0.0.10"
-  resolved "https://node.bit.dev/@wesdollar/dollar-crypto.dollar-crypto.views.set-keys/-/@wesdollar-dollar-crypto.dollar-crypto.views.set-keys-0.0.10.tgz#527f845df4f5470410e6b718e7e16ba934078950"
-  integrity sha1-Un+EXfT1RwQQ5rcY5+FrqTQHiVA=
+"@wesdollar/dollar-crypto.dollar-crypto.views.set-keys@0.0.18", "@wesdollar/dollar-crypto.dollar-crypto.views.set-keys@^0.0.18":
+  version "0.0.18"
+  resolved "https://node.bit.dev/@wesdollar/dollar-crypto.dollar-crypto.views.set-keys/-/@wesdollar-dollar-crypto.dollar-crypto.views.set-keys-0.0.18.tgz#d8b17fc8f7194ba9374446855abce5c53996b7ae"
+  integrity sha1-2LF/yPcZS6k3REaFWrzlxTmWt64=
   dependencies:
     "@material-ui/styles" "4.11.4"
-    "@wesdollar/dollar-crypto.dollar-crypto.constants.colors" "0.0.2"
-    "@wesdollar/dollar-crypto.dollar-crypto.constants.material-ui-theme" "0.0.1"
-    "@wesdollar/dollar-crypto.dollar-crypto.ui.buttons.button" "0.0.3"
+    "@wesdollar/dollar-crypto.dollar-crypto.constants.colors" "0.0.3"
+    "@wesdollar/dollar-crypto.dollar-crypto.constants.material-ui-theme" "0.0.4"
+    "@wesdollar/dollar-crypto.dollar-crypto.ui.buttons.button" "0.0.8"
+    "@wesdollar/dollar-ui.constants.gutters" "0.0.3"
     "@wesdollar/dollar-ui.text.text" "0.0.4"
     "@wesdollar/dollar-ui.ui.centered-horz" "0.0.1"
-    "@wesdollar/dollar-ui.ui.inputs.text-field" "0.0.5"
+    "@wesdollar/dollar-ui.ui.inputs.text-field" "0.0.6"
     "@wesdollar/dollar-ui.ui.mobile-container" "0.0.3"
-    "@wesdollar/dollar-ui.ui.space" "0.0.2"
-    "@wesdollar/dollar-ui.ui.tile" "0.0.4"
-    core-js "^3.0.0"
-    prop-types "15.7.2"
-    styled-components "5.3.0"
-
-"@wesdollar/dollar-crypto.dollar-crypto.views.set-keys@^0.0.9":
-  version "0.0.9"
-  resolved "https://node.bit.dev/@wesdollar/dollar-crypto.dollar-crypto.views.set-keys/-/@wesdollar-dollar-crypto.dollar-crypto.views.set-keys-0.0.9.tgz#bac2e9cb26c7628ed48779ea8b10353ef7e42280"
-  integrity sha1-usLpyybHYo7Uh3nqixA1PvfkIoA=
-  dependencies:
-    "@material-ui/styles" "4.11.4"
-    "@wesdollar/dollar-crypto.dollar-crypto.constants.colors" "0.0.2"
-    "@wesdollar/dollar-crypto.dollar-crypto.constants.material-ui-theme" "0.0.1"
-    "@wesdollar/dollar-crypto.dollar-crypto.ui.buttons.button" "0.0.3"
-    "@wesdollar/dollar-ui.text.text" "0.0.3"
-    "@wesdollar/dollar-ui.ui.centered-horz" "0.0.1"
-    "@wesdollar/dollar-ui.ui.inputs.text-field" "0.0.5"
-    "@wesdollar/dollar-ui.ui.mobile-container" "0.0.3"
-    "@wesdollar/dollar-ui.ui.space" "0.0.2"
-    "@wesdollar/dollar-ui.ui.tile" "0.0.3"
+    "@wesdollar/dollar-ui.ui.space" "0.0.4"
+    "@wesdollar/dollar-ui.ui.tile" "0.0.6"
     core-js "^3.0.0"
     prop-types "15.7.2"
     styled-components "5.3.0"
@@ -3138,96 +2899,39 @@
     core-js "^3.0.0"
     styled-components "5.3.0"
 
-"@wesdollar/dollar-ui.auth.apple@0.0.17":
-  version "0.0.17"
-  resolved "https://node.bit.dev/@wesdollar/dollar-ui.auth.apple/-/@wesdollar-dollar-ui.auth.apple-0.0.17.tgz#ad225850ca412f68631a55ae674a6dd091f4a339"
-  integrity sha1-rSJYUMpBL2hjGlWuZ0pt0JH0ozk=
+"@wesdollar/dollar-ui.auth.apple@0.0.21", "@wesdollar/dollar-ui.auth.apple@^0.0.21":
+  version "0.0.21"
+  resolved "https://node.bit.dev/@wesdollar/dollar-ui.auth.apple/-/@wesdollar-dollar-ui.auth.apple-0.0.21.tgz#c0d6b1e87a3da6c39510bd0b675d54e4df3f6366"
+  integrity sha1-wNax6Ho9psOVEL0LZ11U5N8/Y2Y=
   dependencies:
     "@material-ui/icons" "4.11.2"
-    "@wesdollar/dollar-ui.auth.firebase-auth-base" "2.0.7"
-    "@wesdollar/dollar-ui.ui.buttons.button" "0.0.4"
+    "@wesdollar/dollar-ui.auth.firebase-auth-base" "2.0.11"
+    "@wesdollar/dollar-ui.ui.buttons.button" "0.0.6"
     core-js "^3.0.0"
     prop-types "15.7.2"
 
-"@wesdollar/dollar-ui.auth.apple@^0.0.3":
-  version "0.0.3"
-  resolved "https://node.bit.dev/@wesdollar/dollar-ui.auth.apple/-/@wesdollar-dollar-ui.auth.apple-0.0.3.tgz#40564ad37a15ce3723f9f5f0d7b319032f2de158"
-  integrity sha1-QFZK03oVzjcj+fXw17MZAy8t4Vg=
+"@wesdollar/dollar-ui.auth.firebase-auth-base@2.0.11", "@wesdollar/dollar-ui.auth.firebase-auth-base@^2.0.11":
+  version "2.0.11"
+  resolved "https://node.bit.dev/@wesdollar/dollar-ui.auth.firebase-auth-base/-/@wesdollar-dollar-ui.auth.firebase-auth-base-2.0.11.tgz#44214961b69d9e89437647cbc33f46283c490db6"
+  integrity sha1-RCFJYbadnolDdkfLwz9GKDxJDbY=
   dependencies:
-    "@material-ui/icons" "4.11.2"
-    "@wesdollar/dollar-ui.auth.firebase-auth-base" "0.0.3"
-    "@wesdollar/dollar-ui.ui.buttons.button" "0.0.4"
-    core-js "^3.0.0"
-    firebase "8.10.0"
-    prop-types "15.7.2"
-
-"@wesdollar/dollar-ui.auth.firebase-auth-base@0.0.3":
-  version "0.0.3"
-  resolved "https://node.bit.dev/@wesdollar/dollar-ui.auth.firebase-auth-base/-/@wesdollar-dollar-ui.auth.firebase-auth-base-0.0.3.tgz#e7fe249671c38ec3845ff0b6e689c4810954cdc7"
-  integrity sha1-5/4klnHDjsOEX/C25onEgQlUzcc=
-  dependencies:
-    "@wesdollar/dollar-ui.ui.buttons.button" "0.0.4"
-    "@wesdollar/dollar-ui.ui.loading" "0.0.3"
-    core-js "^3.0.0"
-    firebase "8.10.0"
-    prop-types "15.7.2"
-    styled-components "5.3.0"
-
-"@wesdollar/dollar-ui.auth.firebase-auth-base@2.0.2":
-  version "2.0.2"
-  resolved "https://node.bit.dev/@wesdollar/dollar-ui.auth.firebase-auth-base/-/@wesdollar-dollar-ui.auth.firebase-auth-base-2.0.2.tgz#7f0ccff7ea9e19a260ec7437ab43c9bd39bfd5f7"
-  integrity sha1-fwzP9+qeGaJg7HQ3q0PJvTm/1fc=
-  dependencies:
-    "@wesdollar/dollar-ui.ui.buttons.button" "0.0.4"
+    "@material-ui/styles" "4.11.4"
+    "@wesdollar/dollar-crypto.dollar-crypto.constants.material-ui-theme" "0.0.4"
+    "@wesdollar/dollar-ui.ui.buttons.button" "0.0.6"
     "@wesdollar/dollar-ui.ui.loading" "0.0.4"
     core-js "^3.0.0"
     firebase "9.0.0"
     prop-types "15.7.2"
     styled-components "5.3.0"
 
-"@wesdollar/dollar-ui.auth.firebase-auth-base@2.0.7":
-  version "2.0.7"
-  resolved "https://node.bit.dev/@wesdollar/dollar-ui.auth.firebase-auth-base/-/@wesdollar-dollar-ui.auth.firebase-auth-base-2.0.7.tgz#503a5bc92ce1802bd7df830ebfbbb627a5dd6d35"
-  integrity sha1-UDpbySzhgCvX34MOv7u2J6XdbTU=
-  dependencies:
-    "@wesdollar/dollar-ui.ui.buttons.button" "0.0.4"
-    "@wesdollar/dollar-ui.ui.loading" "0.0.4"
-    core-js "^3.0.0"
-    firebase "9.0.0"
-    prop-types "15.7.2"
-    styled-components "5.3.0"
-
-"@wesdollar/dollar-ui.auth.firebase-auth-base@^2.0.4":
-  version "2.0.4"
-  resolved "https://node.bit.dev/@wesdollar/dollar-ui.auth.firebase-auth-base/-/@wesdollar-dollar-ui.auth.firebase-auth-base-2.0.4.tgz#b19eac0613e9a81b0db9fa22119dcae54f8e5528"
-  integrity sha1-sZ6sBhPpqBsNufoiEZ3K5U+OVSg=
-  dependencies:
-    "@wesdollar/dollar-ui.ui.buttons.button" "0.0.4"
-    "@wesdollar/dollar-ui.ui.loading" "0.0.4"
-    core-js "^3.0.0"
-    firebase "9.0.0"
-    prop-types "15.7.2"
-    styled-components "5.3.0"
-
-"@wesdollar/dollar-ui.auth.github@1.0.30":
-  version "1.0.30"
-  resolved "https://node.bit.dev/@wesdollar/dollar-ui.auth.github/-/@wesdollar-dollar-ui.auth.github-1.0.30.tgz#bb2b4d533079801ca70d22a28e7c5bc1112b723d"
-  integrity sha1-uytNUzB5gBynDSKijnxbwRErcj0=
+"@wesdollar/dollar-ui.auth.github@1.0.35", "@wesdollar/dollar-ui.auth.github@^1.0.35":
+  version "1.0.35"
+  resolved "https://node.bit.dev/@wesdollar/dollar-ui.auth.github/-/@wesdollar-dollar-ui.auth.github-1.0.35.tgz#a060e4c4e5d5543ffb5393e368ba66009f8548cc"
+  integrity sha1-oGDkxOXVVD/7U5PjaLpmAJ+FSMw=
   dependencies:
     "@material-ui/icons" "4.11.2"
-    "@wesdollar/dollar-ui.auth.firebase-auth-base" "2.0.7"
-    "@wesdollar/dollar-ui.ui.buttons.button" "0.0.4"
-    core-js "^3.0.0"
-    prop-types "15.7.2"
-
-"@wesdollar/dollar-ui.auth.github@^1.0.24":
-  version "1.0.25"
-  resolved "https://node.bit.dev/@wesdollar/dollar-ui.auth.github/-/@wesdollar-dollar-ui.auth.github-1.0.25.tgz#e5201fdf5928337889bd107fd864c23c4b814aff"
-  integrity sha1-5SAf31koM3iJvRB/2GTCPEuBSv8=
-  dependencies:
-    "@material-ui/icons" "4.11.2"
-    "@wesdollar/dollar-ui.auth.firebase-auth-base" "2.0.2"
-    "@wesdollar/dollar-ui.ui.buttons.button" "0.0.4"
+    "@wesdollar/dollar-ui.auth.firebase-auth-base" "2.0.11"
+    "@wesdollar/dollar-ui.ui.buttons.button" "0.0.6"
     core-js "^3.0.0"
     prop-types "15.7.2"
 
@@ -3241,10 +2945,10 @@
   resolved "https://node.bit.dev/@wesdollar/dollar-ui.constants.font-sizes/-/@wesdollar-dollar-ui.constants.font-sizes-0.0.1.tgz#cba6498b20f78b0c0061c41f7f68f6652cf006b5"
   integrity sha1-y6ZJiyD3iwwAYcQff2j2ZSzwBrU=
 
-"@wesdollar/dollar-ui.constants.gutters@0.0.1":
-  version "0.0.1"
-  resolved "https://node.bit.dev/@wesdollar/dollar-ui.constants.gutters/-/@wesdollar-dollar-ui.constants.gutters-0.0.1.tgz#87624ea1bade4c9845c2ea5608155e18e0c51bc1"
-  integrity sha1-h2JOobreTJhFwupWCBVeGODFG8E=
+"@wesdollar/dollar-ui.constants.gutters@0.0.3":
+  version "0.0.3"
+  resolved "https://node.bit.dev/@wesdollar/dollar-ui.constants.gutters/-/@wesdollar-dollar-ui.constants.gutters-0.0.3.tgz#92bf4db4ab6c87df323fd4be784d7e8ab8f64704"
+  integrity sha1-kr9NtKtsh98yP9S+eE1+irj2RwQ=
 
 "@wesdollar/dollar-ui.constants.prop-types@0.0.1":
   version "0.0.1"
@@ -3260,39 +2964,39 @@
   dependencies:
     "@wesdollar/dollar-ui.constants.colors" "0.0.1"
 
-"@wesdollar/dollar-ui.crypto.list-wallets@0.0.4":
-  version "0.0.4"
-  resolved "https://node.bit.dev/@wesdollar/dollar-ui.crypto.list-wallets/-/@wesdollar-dollar-ui.crypto.list-wallets-0.0.4.tgz#3bee910292404b24c3aa49aec34e455382ab97d7"
-  integrity sha1-O+6RApJASyTDqkmuw05FU4Krl9c=
+"@wesdollar/dollar-ui.crypto.list-wallets@0.0.7":
+  version "0.0.7"
+  resolved "https://node.bit.dev/@wesdollar/dollar-ui.crypto.list-wallets/-/@wesdollar-dollar-ui.crypto.list-wallets-0.0.7.tgz#59986d0dc89c04a52f5eaa379f2cfb08975f9e20"
+  integrity sha1-WZhtDcicBKUvXqo3nyz7CJdfniA=
   dependencies:
-    "@wesdollar/dollar-ui.crypto.wallet-summary" "0.0.4"
-    "@wesdollar/dollar-ui.test-data.crypto.resources.profits" "0.0.2"
-    "@wesdollar/dollar-ui.ui.tile" "0.0.4"
+    "@wesdollar/dollar-ui.crypto.wallet-summary" "0.0.7"
+    "@wesdollar/dollar-ui.test-data.crypto.resources.profits" "0.0.3"
+    "@wesdollar/dollar-ui.ui.tile" "0.0.6"
     core-js "^3.0.0"
     prop-types "15.7.2"
 
-"@wesdollar/dollar-ui.crypto.summary-tile@0.0.5":
-  version "0.0.5"
-  resolved "https://node.bit.dev/@wesdollar/dollar-ui.crypto.summary-tile/-/@wesdollar-dollar-ui.crypto.summary-tile-0.0.5.tgz#574e6a2d0bc0fa54b45bc9c76b1ec587a4a04f10"
-  integrity sha1-V05qLQvA+lS0W8nHax7Fh6SgTxA=
+"@wesdollar/dollar-ui.crypto.summary-tile@0.0.8":
+  version "0.0.8"
+  resolved "https://node.bit.dev/@wesdollar/dollar-ui.crypto.summary-tile/-/@wesdollar-dollar-ui.crypto.summary-tile-0.0.8.tgz#0b1054ca4f5506790d09f2a0d5ff4d31c96daad4"
+  integrity sha1-CxBUyk9VBnkNCfKg1f9NMcltqtQ=
   dependencies:
     "@material-ui/icons" "4.11.2"
     "@wesdollar/dollar-ui.constants.colors" "0.0.1"
     "@wesdollar/dollar-ui.constants.font-sizes" "0.0.1"
     "@wesdollar/dollar-ui.constants.styles" "0.0.1"
-    "@wesdollar/dollar-ui.test-data.crypto.resources.profits" "0.0.2"
+    "@wesdollar/dollar-ui.test-data.crypto.resources.profits" "0.0.3"
     "@wesdollar/dollar-ui.text.text" "0.0.4"
     "@wesdollar/dollar-ui.ui.number-display" "0.0.2"
-    "@wesdollar/dollar-ui.ui.space" "0.0.2"
-    "@wesdollar/dollar-ui.ui.tile" "0.0.4"
+    "@wesdollar/dollar-ui.ui.space" "0.0.4"
+    "@wesdollar/dollar-ui.ui.tile" "0.0.6"
     core-js "^3.0.0"
     prop-types "15.7.2"
     styled-components "5.3.0"
 
-"@wesdollar/dollar-ui.crypto.wallet-summary@0.0.4":
-  version "0.0.4"
-  resolved "https://node.bit.dev/@wesdollar/dollar-ui.crypto.wallet-summary/-/@wesdollar-dollar-ui.crypto.wallet-summary-0.0.4.tgz#c397e0454821c7a72dc648c98e474fe902f3bb75"
-  integrity sha1-w5fgRUghx6ctxkjJjkdP6QLzu3U=
+"@wesdollar/dollar-ui.crypto.wallet-summary@0.0.7":
+  version "0.0.7"
+  resolved "https://node.bit.dev/@wesdollar/dollar-ui.crypto.wallet-summary/-/@wesdollar-dollar-ui.crypto.wallet-summary-0.0.7.tgz#9411cafb2a62aa4c2fd1ef4c7a75741e4cc7e94a"
+  integrity sha1-lBHK+ypiqkwv0e9MenV0HkzH6Uo=
   dependencies:
     "@material-ui/icons" "4.11.2"
     "@wesdollar/crypto-logos.amp" "0.0.1"
@@ -3300,20 +3004,20 @@
     "@wesdollar/crypto-logos.uni" "0.0.1"
     "@wesdollar/crypto-logos.xlm" "0.0.1"
     "@wesdollar/dollar-ui.constants.font-sizes" "0.0.1"
-    "@wesdollar/dollar-ui.constants.gutters" "0.0.1"
-    "@wesdollar/dollar-ui.test-data.crypto.resources.profits" "0.0.2"
+    "@wesdollar/dollar-ui.constants.gutters" "0.0.3"
+    "@wesdollar/dollar-ui.test-data.crypto.resources.profits" "0.0.3"
     "@wesdollar/dollar-ui.text.secondary-text" "0.0.4"
     "@wesdollar/dollar-ui.text.text" "0.0.4"
     "@wesdollar/dollar-ui.ui.number-display" "0.0.2"
-    "@wesdollar/dollar-ui.ui.space" "0.0.2"
+    "@wesdollar/dollar-ui.ui.space" "0.0.4"
     core-js "^3.0.0"
     prop-types "15.7.2"
     styled-components "5.3.0"
 
-"@wesdollar/dollar-ui.test-data.crypto.resources.profits@0.0.2":
-  version "0.0.2"
-  resolved "https://node.bit.dev/@wesdollar/dollar-ui.test-data.crypto.resources.profits/-/@wesdollar-dollar-ui.test-data.crypto.resources.profits-0.0.2.tgz#f530754d1d3548e57e3baaca34794068b251a249"
-  integrity sha1-9TB1TR01SOV+O6rKNHlAaLJRokk=
+"@wesdollar/dollar-ui.test-data.crypto.resources.profits@0.0.3":
+  version "0.0.3"
+  resolved "https://node.bit.dev/@wesdollar/dollar-ui.test-data.crypto.resources.profits/-/@wesdollar-dollar-ui.test-data.crypto.resources.profits-0.0.3.tgz#1493dd8caac6800025d516f2bde5a9f2d43d4af6"
+  integrity sha1-FJPdjKrGgAAl1RbyveWp8tQ9SvY=
   dependencies:
     core-js "^3.0.0"
 
@@ -3326,19 +3030,6 @@
     "@wesdollar/dollar-ui.text.text" "0.0.4"
     core-js "^3.0.0"
     prop-types "15.7.2"
-
-"@wesdollar/dollar-ui.text.text@0.0.3":
-  version "0.0.3"
-  resolved "https://node.bit.dev/@wesdollar/dollar-ui.text.text/-/@wesdollar-dollar-ui.text.text-0.0.3.tgz#d5578386f49b610a6fac22f707a03c9f4f82f706"
-  integrity sha1-1VeDhvSbYQpvrCL3B6A8n0+C9wY=
-  dependencies:
-    "@wesdollar/dollar-ui.constants.colors" "0.0.1"
-    "@wesdollar/dollar-ui.constants.font-sizes" "0.0.1"
-    "@wesdollar/dollar-ui.constants.prop-types" "0.0.1"
-    "@wesdollar/dollar-ui.constants.styles" "0.0.1"
-    core-js "^3.0.0"
-    prop-types "15.7.2"
-    styled-components "5.3.0"
 
 "@wesdollar/dollar-ui.text.text@0.0.4":
   version "0.0.4"
@@ -3363,10 +3054,10 @@
     prop-types "15.7.2"
     styled-components "5.3.0"
 
-"@wesdollar/dollar-ui.ui.buttons.button@0.0.4":
-  version "0.0.4"
-  resolved "https://node.bit.dev/@wesdollar/dollar-ui.ui.buttons.button/-/@wesdollar-dollar-ui.ui.buttons.button-0.0.4.tgz#d394d90341d2dd00587e10f2f723841a51312ef7"
-  integrity sha1-05TZA0HS3QBYfhDy9yOEGlExLvc=
+"@wesdollar/dollar-ui.ui.buttons.button@0.0.6":
+  version "0.0.6"
+  resolved "https://node.bit.dev/@wesdollar/dollar-ui.ui.buttons.button/-/@wesdollar-dollar-ui.ui.buttons.button-0.0.6.tgz#b3fae22638d330b5764873a8adc4953f51200317"
+  integrity sha1-s/riJjjTMLV2SHOorcSVP1EgAxc=
   dependencies:
     "@material-ui/core" "4.12.2"
     "@wesdollar/dollar-ui.constants.prop-types" "0.0.1"
@@ -3382,25 +3073,37 @@
     prop-types "15.7.2"
     styled-components "5.3.0"
 
-"@wesdollar/dollar-ui.ui.inputs.text-field@0.0.5":
-  version "0.0.5"
-  resolved "https://node.bit.dev/@wesdollar/dollar-ui.ui.inputs.text-field/-/@wesdollar-dollar-ui.ui.inputs.text-field-0.0.5.tgz#8855ac9559fd8a87f62c54f2b4f65f0288103286"
-  integrity sha1-iFWslVn9iof2LFTytPZfAogQMoY=
+"@wesdollar/dollar-ui.ui.centered-viewport@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/dollar-ui.ui.centered-viewport/-/@wesdollar-dollar-ui.ui.centered-viewport-0.0.1.tgz#6528576ca4bf6841cadabe41b5d8b43a49566aab"
+  integrity sha1-ZShXbKS/aEHK2r5Btdi0OklWaqs=
   dependencies:
-    "@material-ui/core" "4.12.2"
-    core-js "^3.0.0"
-    prop-types "15.7.2"
-
-"@wesdollar/dollar-ui.ui.loading@0.0.3":
-  version "0.0.3"
-  resolved "https://node.bit.dev/@wesdollar/dollar-ui.ui.loading/-/@wesdollar-dollar-ui.ui.loading-0.0.3.tgz#6c3d03584ad45f0462d275f1760a195e02e109a4"
-  integrity sha1-bD0DWErUXwRi0nXxdgoZXgLhCaQ=
-  dependencies:
-    "@material-ui/core" "4.12.2"
-    "@wesdollar/dollar-ui.constants.prop-types" "0.0.1"
     core-js "^3.0.0"
     prop-types "15.7.2"
     styled-components "5.3.0"
+
+"@wesdollar/dollar-ui.ui.error-state@0.0.3":
+  version "0.0.3"
+  resolved "https://node.bit.dev/@wesdollar/dollar-ui.ui.error-state/-/@wesdollar-dollar-ui.ui.error-state-0.0.3.tgz#35ed2bd152317949d5e72e6621d5063edc5c6bef"
+  integrity sha1-Ne0r0VIxeUnV5y5mIdUGPtxca+8=
+  dependencies:
+    "@wesdollar/dollar-ui.ui.centered-viewport" "0.0.1"
+    "@wesdollar/dollar-ui.ui.mobile-container" "0.0.3"
+    "@wesdollar/dollar-ui.ui.space" "0.0.4"
+    "@wesdollar/dollar-ui.ui.tile" "0.0.6"
+    "@wesdollar/dollar-ui.ui.typography.body1" "0.0.1"
+    "@wesdollar/dollar-ui.ui.typography.body2" "0.0.1"
+    "@wesdollar/dollar-ui.ui.typography.h4" "0.0.1"
+    core-js "^3.0.0"
+
+"@wesdollar/dollar-ui.ui.inputs.text-field@0.0.6":
+  version "0.0.6"
+  resolved "https://node.bit.dev/@wesdollar/dollar-ui.ui.inputs.text-field/-/@wesdollar-dollar-ui.ui.inputs.text-field-0.0.6.tgz#1c2f20ea4c0f99a9def2ccf4324a28546f3d25e4"
+  integrity sha1-HC8g6kwPmane8sz0MkooVG89JeQ=
+  dependencies:
+    "@material-ui/core" "4.12.2"
+    core-js "^3.0.0"
+    prop-types "15.7.2"
 
 "@wesdollar/dollar-ui.ui.loading@0.0.4", "@wesdollar/dollar-ui.ui.loading@^0.0.4":
   version "0.0.4"
@@ -3432,86 +3135,89 @@
     prop-types "15.7.2"
     styled-components "5.3.0"
 
-"@wesdollar/dollar-ui.ui.space@0.0.2", "@wesdollar/dollar-ui.ui.space@^0.0.2":
-  version "0.0.2"
-  resolved "https://node.bit.dev/@wesdollar/dollar-ui.ui.space/-/@wesdollar-dollar-ui.ui.space-0.0.2.tgz#693765e1ba5ff6634ba40df3e5c482d342eb1601"
-  integrity sha1-aTdl4bpf9mNLpA3z5cSC00LrFgE=
-  dependencies:
-    "@wesdollar/dollar-ui.constants.gutters" "0.0.1"
-    core-js "^3.0.0"
-    prop-types "15.7.2"
-    styled-components "5.3.0"
-
-"@wesdollar/dollar-ui.ui.tile@0.0.3":
-  version "0.0.3"
-  resolved "https://node.bit.dev/@wesdollar/dollar-ui.ui.tile/-/@wesdollar-dollar-ui.ui.tile-0.0.3.tgz#abf99244fc66e0ce702e109d3dc044b4ba5421e1"
-  integrity sha1-q/mSRPxm4M5wLhCdPcBEtLpUIeE=
-  dependencies:
-    "@wesdollar/dollar-ui.constants.colors" "0.0.1"
-    "@wesdollar/dollar-ui.constants.gutters" "0.0.1"
-    "@wesdollar/dollar-ui.constants.prop-types" "0.0.1"
-    "@wesdollar/dollar-ui.constants.styles" "0.0.1"
-    core-js "^3.0.0"
-    prop-types "15.7.2"
-    styled-components "5.3.0"
-
-"@wesdollar/dollar-ui.ui.tile@0.0.4":
+"@wesdollar/dollar-ui.ui.space@0.0.4", "@wesdollar/dollar-ui.ui.space@^0.0.4":
   version "0.0.4"
-  resolved "https://node.bit.dev/@wesdollar/dollar-ui.ui.tile/-/@wesdollar-dollar-ui.ui.tile-0.0.4.tgz#84298c120902f07ca5a070613fc6afda0278959f"
-  integrity sha1-hCmMEgkC8HyloHBhP8av2gJ4lZ8=
+  resolved "https://node.bit.dev/@wesdollar/dollar-ui.ui.space/-/@wesdollar-dollar-ui.ui.space-0.0.4.tgz#be160229679a80eed130923b424722979006a9fa"
+  integrity sha1-vhYCKWeagO7RMJI7Qkcil5AGqfo=
+  dependencies:
+    "@wesdollar/dollar-ui.constants.gutters" "0.0.3"
+    core-js "^3.0.0"
+    prop-types "15.7.2"
+    styled-components "5.3.0"
+
+"@wesdollar/dollar-ui.ui.tile@0.0.6":
+  version "0.0.6"
+  resolved "https://node.bit.dev/@wesdollar/dollar-ui.ui.tile/-/@wesdollar-dollar-ui.ui.tile-0.0.6.tgz#6bd19eb093bf8f5a2e1538549201e0684d55e95a"
+  integrity sha1-a9GesJO/j1ouFThUkgHgaE1V6Vo=
   dependencies:
     "@wesdollar/dollar-ui.constants.colors" "0.0.1"
-    "@wesdollar/dollar-ui.constants.gutters" "0.0.1"
+    "@wesdollar/dollar-ui.constants.gutters" "0.0.3"
     "@wesdollar/dollar-ui.constants.prop-types" "0.0.1"
     "@wesdollar/dollar-ui.constants.styles" "0.0.1"
     core-js "^3.0.0"
     prop-types "15.7.2"
     styled-components "5.3.0"
 
-"@wesdollar/dollar-ui.ui.view-container@0.0.2":
-  version "0.0.2"
-  resolved "https://node.bit.dev/@wesdollar/dollar-ui.ui.view-container/-/@wesdollar-dollar-ui.ui.view-container-0.0.2.tgz#e31c1c1526c2e25ef2e0301195ca709de14f816b"
-  integrity sha1-4xwcFSbC4l7y4DARlcpwneFPgWs=
+"@wesdollar/dollar-ui.ui.typography.body1@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/dollar-ui.ui.typography.body1/-/@wesdollar-dollar-ui.ui.typography.body1-0.0.1.tgz#af80da1eea91c62b7fa5bca3cd2ead862407488a"
+  integrity sha1-r4DaHuqRxit/pbyjzS6thiQHSIo=
   dependencies:
-    "@wesdollar/dollar-ui.constants.gutters" "0.0.1"
+    "@wesdollar/dollar-ui.ui.typography.typography-base" "0.0.1"
+    core-js "^3.0.0"
+
+"@wesdollar/dollar-ui.ui.typography.body2@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/dollar-ui.ui.typography.body2/-/@wesdollar-dollar-ui.ui.typography.body2-0.0.1.tgz#ec5e7f547eb635b3bbe361a3a62c120481aec368"
+  integrity sha1-7F5/VH62NbO742GjpiwSBIGuw2g=
+  dependencies:
+    "@wesdollar/dollar-ui.ui.typography.typography-base" "0.0.1"
+    core-js "^3.0.0"
+
+"@wesdollar/dollar-ui.ui.typography.h4@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/dollar-ui.ui.typography.h4/-/@wesdollar-dollar-ui.ui.typography.h4-0.0.1.tgz#a71f65271ac589334a33500e6d4d5136e3a84608"
+  integrity sha1-px9lJxrFiTNKM1AObU1RNuOoRgg=
+  dependencies:
+    "@wesdollar/dollar-ui.ui.typography.typography-base" "0.0.1"
+    core-js "^3.0.0"
+    prop-types "15.7.2"
+
+"@wesdollar/dollar-ui.ui.typography.typography-base@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/dollar-ui.ui.typography.typography-base/-/@wesdollar-dollar-ui.ui.typography.typography-base-0.0.1.tgz#2a1cea2aced6be04b19a82d751b4b92e24758e01"
+  integrity sha1-KhzqKs7WvgSxmoLXUbS5LiR1jgE=
+  dependencies:
+    "@material-ui/core" "4.12.2"
+    "@material-ui/styles" "4.11.4"
+    "@wesdollar/dollar-crypto.dollar-crypto.constants.material-ui-theme" "0.0.4"
+    core-js "^3.0.0"
+
+"@wesdollar/dollar-ui.ui.view-container@0.0.4":
+  version "0.0.4"
+  resolved "https://node.bit.dev/@wesdollar/dollar-ui.ui.view-container/-/@wesdollar-dollar-ui.ui.view-container-0.0.4.tgz#a09ceeef07cd779e16ca59a96e1fd2d0b08d685a"
+  integrity sha1-oJzu7wfNd54Wylmpbh/S0LCNaFo=
+  dependencies:
+    "@wesdollar/dollar-ui.constants.gutters" "0.0.3"
     core-js "^3.0.0"
     prop-types "15.7.2"
     styled-components "5.3.0"
 
-"@wesdollar/dollar-ui.views.dashboard@0.0.18":
-  version "0.0.18"
-  resolved "https://node.bit.dev/@wesdollar/dollar-ui.views.dashboard/-/@wesdollar-dollar-ui.views.dashboard-0.0.18.tgz#c93e2ee0324f12c8e8b77bcfb24e3d0ee73606c7"
-  integrity sha1-yT4u4DJPEsjot3vPsk49Duc2Bsc=
+"@wesdollar/dollar-ui.views.dashboard@0.0.22", "@wesdollar/dollar-ui.views.dashboard@^0.0.22":
+  version "0.0.22"
+  resolved "https://node.bit.dev/@wesdollar/dollar-ui.views.dashboard/-/@wesdollar-dollar-ui.views.dashboard-0.0.22.tgz#219abe920cf53ba00995a484d2fb8ae8dba3c66f"
+  integrity sha1-IZq+kgz1O6AJlaSE0vuK6Nujxm8=
   dependencies:
-    "@wesdollar/dollar-crypto.dollar-crypto.constants.colors" "0.0.2"
+    "@wesdollar/dollar-crypto.dollar-crypto.constants.colors" "0.0.3"
     "@wesdollar/dollar-ui.action-buttons.refresh" "0.0.4"
-    "@wesdollar/dollar-ui.constants.gutters" "0.0.1"
-    "@wesdollar/dollar-ui.crypto.list-wallets" "0.0.4"
-    "@wesdollar/dollar-ui.crypto.summary-tile" "0.0.5"
-    "@wesdollar/dollar-ui.test-data.crypto.resources.profits" "0.0.2"
+    "@wesdollar/dollar-ui.constants.gutters" "0.0.3"
+    "@wesdollar/dollar-ui.crypto.list-wallets" "0.0.7"
+    "@wesdollar/dollar-ui.crypto.summary-tile" "0.0.8"
+    "@wesdollar/dollar-ui.test-data.crypto.resources.profits" "0.0.3"
     "@wesdollar/dollar-ui.ui.action-buttons.logout" "0.0.1"
     "@wesdollar/dollar-ui.ui.loading" "0.0.4"
-    "@wesdollar/dollar-ui.ui.space" "0.0.2"
-    "@wesdollar/dollar-ui.ui.view-container" "0.0.2"
-    core-js "^3.0.0"
-    prop-types "15.7.2"
-    styled-components "5.3.0"
-
-"@wesdollar/dollar-ui.views.dashboard@^0.0.17":
-  version "0.0.17"
-  resolved "https://node.bit.dev/@wesdollar/dollar-ui.views.dashboard/-/@wesdollar-dollar-ui.views.dashboard-0.0.17.tgz#073aaf7f7da71e7ae3ce716f130e68540e34f84b"
-  integrity sha1-Bzqvf32nHnrjznFvEw5oVA40+Es=
-  dependencies:
-    "@wesdollar/dollar-crypto.dollar-crypto.constants.colors" "0.0.2"
-    "@wesdollar/dollar-ui.action-buttons.refresh" "0.0.4"
-    "@wesdollar/dollar-ui.constants.gutters" "0.0.1"
-    "@wesdollar/dollar-ui.crypto.list-wallets" "0.0.4"
-    "@wesdollar/dollar-ui.crypto.summary-tile" "0.0.5"
-    "@wesdollar/dollar-ui.test-data.crypto.resources.profits" "0.0.2"
-    "@wesdollar/dollar-ui.ui.action-buttons.logout" "0.0.1"
-    "@wesdollar/dollar-ui.ui.loading" "0.0.4"
-    "@wesdollar/dollar-ui.ui.space" "0.0.2"
-    "@wesdollar/dollar-ui.ui.view-container" "0.0.2"
+    "@wesdollar/dollar-ui.ui.space" "0.0.4"
+    "@wesdollar/dollar-ui.ui.view-container" "0.0.4"
     core-js "^3.0.0"
     prop-types "15.7.2"
     styled-components "5.3.0"
@@ -5603,11 +5309,6 @@ dom-serializer@^1.0.1:
     domhandler "^4.2.0"
     entities "^2.0.0"
 
-dom-storage@2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/dom-storage/-/dom-storage-2.1.0.tgz#00fb868bc9201357ea243c7bcfd3304c1e34ea39"
-  integrity sha512-g6RpyWXzl0RR6OTElHKBl7nwnK87GUyZMYC7JWsB/IA73vpqK2K6LT39x4VepLxlSsWBFrPVLnsSR5Jyty0+2Q==
-
 domain-browser@^1.1.1:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/domain-browser/-/domain-browser-1.2.0.tgz#3d31f50191a6749dd1375a7f522e823d42e54eda"
@@ -6484,27 +6185,6 @@ find-up@^3.0.0:
   integrity sha512-1yD6RmLI1XBfxugvORwlck6f75tYL+iR0jqwsOrOxMZyGYqUuDhJ0l4AXdO1iX/FTs9cBAMEk1gWSEx1kSbylg==
   dependencies:
     locate-path "^3.0.0"
-
-firebase@8.10.0:
-  version "8.10.0"
-  resolved "https://registry.yarnpkg.com/firebase/-/firebase-8.10.0.tgz#1794148de8f865b5e7f32c582fb343a4e2c68ca7"
-  integrity sha512-GCABTbJdo88QgzX5OH/vsfKBWvTRbLUylGlYXtO7uYo1VErfGd2BWW9ATlJP5Gxx+ClDfyvVTvcs2rcNWn3uUA==
-  dependencies:
-    "@firebase/analytics" "0.6.18"
-    "@firebase/app" "0.6.30"
-    "@firebase/app-check" "0.3.2"
-    "@firebase/app-types" "0.6.3"
-    "@firebase/auth" "0.16.8"
-    "@firebase/database" "0.11.0"
-    "@firebase/firestore" "2.4.0"
-    "@firebase/functions" "0.6.15"
-    "@firebase/installations" "0.4.32"
-    "@firebase/messaging" "0.8.0"
-    "@firebase/performance" "0.4.18"
-    "@firebase/polyfill" "0.3.36"
-    "@firebase/remote-config" "0.1.43"
-    "@firebase/storage" "0.7.0"
-    "@firebase/util" "1.3.0"
 
 firebase@9.0.0, firebase@^9.0.0:
   version "9.0.0"
@@ -13088,9 +12768,9 @@ write-file-atomic@^3.0.0:
     typedarray-to-buffer "^3.1.5"
 
 ws@>=7.4.6:
-  version "8.2.0"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-8.2.0.tgz#0b738cd484bfc9303421914b11bb4011e07615bb"
-  integrity sha512-uYhVJ/m9oXwEI04iIVmgLmugh2qrZihkywG9y5FfZV2ATeLIzHf93qs+tUNqlttbQK957/VX3mtwAS+UfIwA4g==
+  version "8.2.1"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.2.1.tgz#bdd92b3c56fdb47d2379b5ae534281922cc5bd12"
+  integrity sha512-XkgWpJU3sHU7gX8f13NqTn6KQ85bd1WU7noBHTT8fSohx7OS1TPY8k+cyRPCzFkia7C4mM229yeHr1qK9sM4JQ==
 
 ws@^6.2.1:
   version "6.2.2"
@@ -13099,7 +12779,12 @@ ws@^6.2.1:
   dependencies:
     async-limiter "~1.0.0"
 
-ws@^7.3.1, ws@^7.4.6:
+ws@^7.3.1:
+  version "7.5.4"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-7.5.4.tgz#56bfa20b167427e138a7795de68d134fe92e21f9"
+  integrity sha512-zP9z6GXm6zC27YtspwH99T3qTG7bBFv2VIkeHstMLrLlDJuzA7tQ5ls3OJ1hOGGCzTQPniNJoHXIAOS0Jljohg==
+
+ws@^7.4.6:
   version "7.5.3"
   resolved "https://registry.yarnpkg.com/ws/-/ws-7.5.3.tgz#160835b63c7d97bfab418fc1b8a9fced2ac01a74"
   integrity sha512-kQ/dHIzuLrS6Je9+uv81ueZomEwH0qVYstcAQ4/Z93K8zeko9gtAbttJWzoC5ukqXY1PpoouV3+VSOqEAFt5wg==
@@ -13113,11 +12798,6 @@ xmlchars@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/xmlchars/-/xmlchars-2.2.0.tgz#060fe1bcb7f9c76fe2a17db86a9bc3ab894210cb"
   integrity sha512-JZnDKK8B0RCDw84FNdDAIpZK+JuJw+s7Lz8nksI7SIuU3UXJJslUthsi+uWBUYOwPFwW7W7PRLRfUKpxjtjFCw==
-
-xmlhttprequest@1.8.0:
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/xmlhttprequest/-/xmlhttprequest-1.8.0.tgz#67fe075c5c24fef39f9d65f5f7b7fe75171968fc"
-  integrity sha1-Z/4HXFwk/vOfnWX197f+dRcZaPw=
 
 xtend@^4.0.0, xtend@~4.0.1:
   version "4.0.2"
