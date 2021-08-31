@@ -2838,10 +2838,206 @@
     "@webassemblyjs/wast-parser" "1.9.0"
     "@xtuc/long" "4.2.2"
 
-"@wesdollar/crypto-logos.amp@0.0.1":
+"@wesdollar/crypto-logos.1inch@0.0.1":
   version "0.0.1"
-  resolved "https://node.bit.dev/@wesdollar/crypto-logos.amp/-/@wesdollar-crypto-logos.amp-0.0.1.tgz#3b61aa465e852e8bb895b9e7ce8b1dd9fe789ef8"
-  integrity sha1-O2GqRl6FLou4lbnnzosd2f54nvg=
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.1inch/-/@wesdollar-crypto-logos.1inch-0.0.1.tgz#6baa18b6a4a4a1e2b4ac9901160203d3c94c8204"
+  integrity sha1-a6oYtqSkoeK0rJkBFgID08lMggQ=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.aave@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.aave/-/@wesdollar-crypto-logos.aave-0.0.1.tgz#891323b325fe2edfc124c82a0858a14104f35c11"
+  integrity sha1-iRMjsyX+Lt/BJMgqCFihQQTzXBE=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.ach@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.ach/-/@wesdollar-crypto-logos.ach-0.0.1.tgz#012bfcceb1fe5cb48d0e5a402a3d2b3c247a3c37"
+  integrity sha1-ASv8zrH+XLSNDlpAKj0rPCR6PDc=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.ada@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.ada/-/@wesdollar-crypto-logos.ada-0.0.1.tgz#6fda365c2d32e7aea7570ed1306fd106472d11d5"
+  integrity sha1-b9o2XC0y566nVw7RMG/RBkctEdU=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.algo@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.algo/-/@wesdollar-crypto-logos.algo-0.0.1.tgz#f36b8d91f65432a645ade4d4f40384bfea0b766a"
+  integrity sha1-82uNkfZUMqZFreTU9AOEv+oLdmo=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.amp@0.0.2":
+  version "0.0.2"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.amp/-/@wesdollar-crypto-logos.amp-0.0.2.tgz#5f181c9f425d6aca6618114c2277b257e2bf1fcf"
+  integrity sha1-Xxgcn0JdaspmGBFMIneyV+K/H88=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.ankr@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.ankr/-/@wesdollar-crypto-logos.ankr-0.0.1.tgz#61f0d437c9f35f85e31e964e8c558149c956e422"
+  integrity sha1-YfDUN8nzX4XjHpZOjFWBSclW5CI=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.atom@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.atom/-/@wesdollar-crypto-logos.atom-0.0.1.tgz#76918d7d11a1655ec2ac9c16978250e33a5dbc7d"
+  integrity sha1-dpGNfRGhZV7CrJwWl4JQ4zpdvH0=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.axs@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.axs/-/@wesdollar-crypto-logos.axs-0.0.1.tgz#43ddffa60cf2294934972fb8e146f81b649dd116"
+  integrity sha1-Q93/pgzyKUk0ly+44Ub4G2Sd0RY=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.bal@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.bal/-/@wesdollar-crypto-logos.bal-0.0.1.tgz#d5b97d90d7d3cd3d916a82a8c9566bdbd952a94f"
+  integrity sha1-1bl9kNfTzT2RaoKoyVZr29lSqU8=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.band@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.band/-/@wesdollar-crypto-logos.band-0.0.1.tgz#deee17ec3a205ade87b2a8ddc9c5a44f39b0423e"
+  integrity sha1-3u4X7DogWt6HsqjdycWkTzmwQj4=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.bat@0.0.2":
+  version "0.0.2"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.bat/-/@wesdollar-crypto-logos.bat-0.0.2.tgz#16a4613f43ea6d2990f02948e5217253e43822cb"
+  integrity sha1-FqRhP0PqbSmQ8ClI5SFyU+Q4Iss=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.bch@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.bch/-/@wesdollar-crypto-logos.bch-0.0.1.tgz#6f72a30ed14d0c543b422733c1f1131a38194b92"
+  integrity sha1-b3KjDtFNDFQ7QiczwfETGjgZS5I=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.bnt@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.bnt/-/@wesdollar-crypto-logos.bnt-0.0.1.tgz#589d1e1c4a23492a0672cfb3cd5f0cccfe7dfe46"
+  integrity sha1-WJ0eHEojSSoGcs+zzV8MzP59/kY=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.bond@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.bond/-/@wesdollar-crypto-logos.bond-0.0.1.tgz#4c00d7af4d4956ea7a6ca632bf343cef3eda16b7"
+  integrity sha1-TADXr01JVup6bKYyvzQ87z7aFrc=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.btc@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.btc/-/@wesdollar-crypto-logos.btc-0.0.1.tgz#a268f617430cd7507ce4c1f48c2a4d2cc5e8cb96"
+  integrity sha1-omj2F0MM11B85MH0jCpNLMXoy5Y=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.cgld@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.cgld/-/@wesdollar-crypto-logos.cgld-0.0.1.tgz#ed4a7a01803febe78659861a42b7807fba1ca885"
+  integrity sha1-7Up6AYA/6+eGWYYaQreAf7ocqIU=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.chz@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.chz/-/@wesdollar-crypto-logos.chz-0.0.1.tgz#a7f208d127341ee677f8fab293d33949379b78ca"
+  integrity sha1-p/II0Sc0HuZ3+Pqyk9M5STebeMo=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.clv@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.clv/-/@wesdollar-crypto-logos.clv-0.0.1.tgz#42461089fed806725ce3adb238bfecee9eed27a6"
+  integrity sha1-QkYQif7YBnJc462yOL/s7p7tJ6Y=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.comp@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.comp/-/@wesdollar-crypto-logos.comp-0.0.1.tgz#aeb1540c1104e3df18633a1e029dddffba0387e7"
+  integrity sha1-rrFUDBEE498YYzoeAp3d/7oDh+c=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.crv@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.crv/-/@wesdollar-crypto-logos.crv-0.0.1.tgz#7cc0f064279d271a1927aab7954717f86e73534a"
+  integrity sha1-fMDwZCedJxoZJ6q3lUcX+G5zU0o=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.ctsi@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.ctsi/-/@wesdollar-crypto-logos.ctsi-0.0.1.tgz#0637c1c6a8d8ed3e47f2d3c66933cfd2a329967e"
+  integrity sha1-BjfBxqjY7T5H8tPGaTPP0qMpln4=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.dai@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.dai/-/@wesdollar-crypto-logos.dai-0.0.1.tgz#a96f86eca88466753937a9ef35b113ed941f5b1a"
+  integrity sha1-qW+G7KiEZnU5N6nvNbET7ZQfWxo=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.dash@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.dash/-/@wesdollar-crypto-logos.dash-0.0.1.tgz#794e08d69803b1f7ca4c62134e886debdc192599"
+  integrity sha1-eU4I1pgDsffKTGITToht69wZJZk=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.doge@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.doge/-/@wesdollar-crypto-logos.doge-0.0.1.tgz#dc1bd55b3b1617d52bcaa882ae930642eb559fc8"
+  integrity sha1-3BvVWzsWF9UryqiCrpMGQutVn8g=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.dot@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.dot/-/@wesdollar-crypto-logos.dot-0.0.1.tgz#59b0ba6fd90d3d20645636ff34f5a7415e0007ed"
+  integrity sha1-WbC6b9kNPSBkVjb/NPWnQV4AB+0=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.enj@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.enj/-/@wesdollar-crypto-logos.enj-0.0.1.tgz#aa381e0f7798636c2936b5d50af661aef0bbd3dc"
+  integrity sha1-qjgeD3eYY2wpNrXVCvZhrvC709w=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.eos@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.eos/-/@wesdollar-crypto-logos.eos-0.0.1.tgz#95a9a03d6f4b0998f0da7aee4dae97394dfcf21c"
+  integrity sha1-lamgPW9LCZjw2nruTa6XOU388hw=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.etc@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.etc/-/@wesdollar-crypto-logos.etc-0.0.1.tgz#8a52c44b0c6fe59781d43adf4fa9dbbfdd168e3f"
+  integrity sha1-ilLESwxv5ZeB1DrfT6nbv90Wjj8=
   dependencies:
     core-js "^3.0.0"
 
@@ -2852,6 +3048,328 @@
   dependencies:
     core-js "^3.0.0"
 
+"@wesdollar/crypto-logos.farm@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.farm/-/@wesdollar-crypto-logos.farm-0.0.1.tgz#a6db9ad04022d536811f4496b442f2583c3615bb"
+  integrity sha1-ptua0EAi1TaBH0SWtELyWDw2Fbs=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.fet@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.fet/-/@wesdollar-crypto-logos.fet-0.0.1.tgz#2aa28bd42cc386e542fd30e3d8fc5c5c7ae1e9f7"
+  integrity sha1-KqKL1CzDhuVC/TDj2PxcXHrh6fc=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.fil@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.fil/-/@wesdollar-crypto-logos.fil-0.0.1.tgz#ea07c56b921232a7113e50d619151e42bcead1cd"
+  integrity sha1-6gfFa5ISMqcRPlDWGRUeQrzq0c0=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.forth@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.forth/-/@wesdollar-crypto-logos.forth-0.0.1.tgz#ec61d80b2e6c0aef8f20d3d2610344737cd29863"
+  integrity sha1-7GHYCy5sCu+PINPSYQNEc3zSmGM=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.grt@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.grt/-/@wesdollar-crypto-logos.grt-0.0.1.tgz#16aa9d8b865baeb6526829e38be13ded17a1c121"
+  integrity sha1-Fqqdi4ZbrrZSaCnji+E97RehwSE=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.gtc@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.gtc/-/@wesdollar-crypto-logos.gtc-0.0.1.tgz#2546e7c21de2c826f9bde322ec4bf10440dfed5a"
+  integrity sha1-JUbnwh3iyCb5veMi7EvxBEDf7Vo=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.icp@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.icp/-/@wesdollar-crypto-logos.icp-0.0.1.tgz#080f05ded36743e0db93c68ecb662e2fcc4274cb"
+  integrity sha1-CA8F3tNnQ+Dbk8aOy2YuL8xCdMs=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.iotx@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.iotx/-/@wesdollar-crypto-logos.iotx-0.0.1.tgz#d79ccc21681a55607b2b9c47c751af7b448c511e"
+  integrity sha1-15zMIWgaVWB7K5xHx1Gve0SMUR4=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.keep@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.keep/-/@wesdollar-crypto-logos.keep-0.0.1.tgz#5025e34297871f980e8a7c7755dff311370cd408"
+  integrity sha1-UCXjQpeHH5gOinx3Vd/zETcM1Ag=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.knc@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.knc/-/@wesdollar-crypto-logos.knc-0.0.1.tgz#00d405945edf21115f351e85a37329f5a6d79e0a"
+  integrity sha1-ANQFlF7fIRFfNR6Fo3Mp9abXngo=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.loom@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.loom/-/@wesdollar-crypto-logos.loom-0.0.1.tgz#7f2464fadd235a0269fd0dc06412eaf32240af3a"
+  integrity sha1-fyRk+t0jWgJp/Q3AZBLq8yJArzo=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.lpt@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.lpt/-/@wesdollar-crypto-logos.lpt-0.0.1.tgz#2c843b2cd577a80d5859984f7fa7a61d3e73e66f"
+  integrity sha1-LIQ7LNV3qA1YWZhPf6emHT5z5m8=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.lrc@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.lrc/-/@wesdollar-crypto-logos.lrc-0.0.1.tgz#343fdf9a2744aeb136d4fc35d7cea80a1aca55b2"
+  integrity sha1-ND/fmidErrE21Pw1186oChrKVbI=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.ltc@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.ltc/-/@wesdollar-crypto-logos.ltc-0.0.1.tgz#6389ebe32b21d5a9c44631580eecda660069f94f"
+  integrity sha1-Y4nr4ysh1anERjFYDuzaZgBp+U8=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.mask@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.mask/-/@wesdollar-crypto-logos.mask-0.0.1.tgz#c6b5d3651e494c68595f5b662874aa7162f4b782"
+  integrity sha1-xrXTZR5JTGhZX1tmKHSqcWL0t4I=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.matic@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.matic/-/@wesdollar-crypto-logos.matic-0.0.1.tgz#3ed74ece88a323507ef70370acce30c5651abd88"
+  integrity sha1-PtdOzoijI1B+9wNwrM4wxWUavYg=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.mir@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.mir/-/@wesdollar-crypto-logos.mir-0.0.1.tgz#4be0f8b5f8fb1de2ff386b3bc964fd4cca1d3031"
+  integrity sha1-S+D4tfj7HeL/OGs7yWT9TModMDE=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.mkr@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.mkr/-/@wesdollar-crypto-logos.mkr-0.0.1.tgz#9d69792939e2117f589500fffa8b759516a4a255"
+  integrity sha1-nWl5KTniEX9YlQD/+ot1lRakolU=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.mln@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.mln/-/@wesdollar-crypto-logos.mln-0.0.1.tgz#ab457e1c7cde5af886c83d09bd5e302280363470"
+  integrity sha1-q0V+HHzeWviGyD0JvV4wIoA2NHA=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.nkn@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.nkn/-/@wesdollar-crypto-logos.nkn-0.0.1.tgz#e459b43b36c82d19d6828bae7aafa9ec22f52cbb"
+  integrity sha1-5Fm0OzbILRnWgouueq+p7CL1LLs=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.nmr@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.nmr/-/@wesdollar-crypto-logos.nmr-0.0.1.tgz#2c3ec068b7f88fc02860b416bf5c39d9f8172813"
+  integrity sha1-LD7AaLf4j8AoYLQWv1w52fgXKBM=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.nu@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.nu/-/@wesdollar-crypto-logos.nu-0.0.1.tgz#7e4f784dd03be71215b1a7f7ce9128b67f57aee2"
+  integrity sha1-fk94TdA75xIVsaf3zpEotn9XruI=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.ogn@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.ogn/-/@wesdollar-crypto-logos.ogn-0.0.1.tgz#34ab9de0696d6197d107b40eaf4ca18f0af2cc5c"
+  integrity sha1-NKud4GltYZfRB7QOr0yhjwryzFw=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.omg@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.omg/-/@wesdollar-crypto-logos.omg-0.0.1.tgz#313b6ee693b15a3d93030cfed6d35a0d251d39a3"
+  integrity sha1-MTtu5pOxWj2TAwz+1tNaDSUdOaM=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.orn@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.orn/-/@wesdollar-crypto-logos.orn-0.0.1.tgz#8335790599717f41b56eddc297d6db912257ec08"
+  integrity sha1-gzV5BZlxf0G1bt3Cl9bbkSJX7Ag=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.oxt@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.oxt/-/@wesdollar-crypto-logos.oxt-0.0.1.tgz#6ef6aaea7abea7778e1af7650e65170bc08b5b02"
+  integrity sha1-bvaq6nq+p3eOGvdlDmUXC8CLWwI=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.pax@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.pax/-/@wesdollar-crypto-logos.pax-0.0.1.tgz#83b8ceeb4bfdac2ba6e6d680ff2ee02d0d236f1a"
+  integrity sha1-g7jO60v9rCum5taA/y7gLQ0jbxo=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.pla@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.pla/-/@wesdollar-crypto-logos.pla-0.0.1.tgz#21a6399a95133d4736e421d5eac2bd854c93b814"
+  integrity sha1-IaY5mpUTPUc25CHV6sK9hUyTuBQ=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.poly@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.poly/-/@wesdollar-crypto-logos.poly-0.0.1.tgz#ece2ea261d2728af68376c9cfe91fec4b85f7761"
+  integrity sha1-7OLqJh0nKK9oN2yc/pH+xLhfd2E=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.qnt@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.qnt/-/@wesdollar-crypto-logos.qnt-0.0.1.tgz#611544f48aa53ef9bab22ece3bbbfb03e2b6f530"
+  integrity sha1-YRVE9IqlPvm6si7OO7v7A+K29TA=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.quick@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.quick/-/@wesdollar-crypto-logos.quick-0.0.1.tgz#673173e7a806fcc79051f02e1b7c0883a68dab3a"
+  integrity sha1-ZzFz56gG/MeQUfAuG3wIg6aNqzo=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.rai@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.rai/-/@wesdollar-crypto-logos.rai-0.0.1.tgz#c37362bfb87f5f1c94f0f419269c90e7d0cdb1aa"
+  integrity sha1-w3Niv7h/XxyU8PQZJpyQ59DNsao=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.ren@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.ren/-/@wesdollar-crypto-logos.ren-0.0.1.tgz#a75d76af1f48ca7e41e08894176211bca1de9ab9"
+  integrity sha1-p112rx9Iyn5B4IiUF2IRvKHemrk=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.rep@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.rep/-/@wesdollar-crypto-logos.rep-0.0.1.tgz#6328367040946b23bff5d2d02c52de38cdccdea6"
+  integrity sha1-Yyg2cECUayO/9dLQLFLeOM3M3qY=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.req@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.req/-/@wesdollar-crypto-logos.req-0.0.1.tgz#3673e667572149e916231748c4b76e54c9e5c8d7"
+  integrity sha1-NnPmZ1chSekWIxdIxLduVMnlyNc=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.rlc@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.rlc/-/@wesdollar-crypto-logos.rlc-0.0.1.tgz#c7c894894ee53243336d554d827735ea44d717c8"
+  integrity sha1-x8iUiU7lMkMzbVVNgnc16kTXF8g=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.rly@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.rly/-/@wesdollar-crypto-logos.rly-0.0.1.tgz#ac55f2a122fb3cefd47d8a2b978aeb64b9541f1c"
+  integrity sha1-rFXyoSL7PO/UfYorl4rrZLlUHxw=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.skl@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.skl/-/@wesdollar-crypto-logos.skl-0.0.1.tgz#c5dd90c757ecd5cbb7953b0897f55745232cb951"
+  integrity sha1-xd2Qx1fs1cu3lTsIl/VXRSMsuVE=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.snx@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.snx/-/@wesdollar-crypto-logos.snx-0.0.1.tgz#8de7563d6f2d3731bd94a8d85e9d5b301fb782d8"
+  integrity sha1-jedWPW8tNzG9lKjYXp1bMB+3gtg=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.sol@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.sol/-/@wesdollar-crypto-logos.sol-0.0.1.tgz#adfc99c63f3ad667a878ea6f1b35519ecfb193fc"
+  integrity sha1-rfyZxj861meoeOpvGzVRns+xk/w=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.storj@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.storj/-/@wesdollar-crypto-logos.storj-0.0.1.tgz#d77b3b2e2801a359419399929db14912b3051185"
+  integrity sha1-13s7LigBo1lBk5mSnbFJErMFEYU=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.sushi@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.sushi/-/@wesdollar-crypto-logos.sushi-0.0.1.tgz#15106ee29f87d3f46aa100a89f9f942caf945a97"
+  integrity sha1-FRBu4p+H0/RqoQCon5+ULK+UWpc=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.trb@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.trb/-/@wesdollar-crypto-logos.trb-0.0.1.tgz#f277712387d01dcf89e9d17e8497191f032d9185"
+  integrity sha1-8ndxI4fQHc+J6dF+hJcZHwMtkYU=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.tribe@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.tribe/-/@wesdollar-crypto-logos.tribe-0.0.1.tgz#5670d7db646156fe7c8c08058e91d183e3924b42"
+  integrity sha1-VnDX22RhVv58jAgFjpHRg+OSS0I=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.tru@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.tru/-/@wesdollar-crypto-logos.tru-0.0.1.tgz#ffa475fb4801a531d6f77c6926cf2c25bdff0129"
+  integrity sha1-/6R1+0gBpTHW93xpJs8sJb3/ASk=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.uma@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.uma/-/@wesdollar-crypto-logos.uma-0.0.1.tgz#c07dc8c27e8f4690da0d9377412dbc642d6b4c05"
+  integrity sha1-wH3Iwn6PRpDaDZN3QS28ZC1rTAU=
+  dependencies:
+    core-js "^3.0.0"
+
 "@wesdollar/crypto-logos.uni@0.0.1":
   version "0.0.1"
   resolved "https://node.bit.dev/@wesdollar/crypto-logos.uni/-/@wesdollar-crypto-logos.uni-0.0.1.tgz#a6c97ca9040e254dfb67a1423d7d33a3fa48f600"
@@ -2859,10 +3377,38 @@
   dependencies:
     core-js "^3.0.0"
 
+"@wesdollar/crypto-logos.usdt@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.usdt/-/@wesdollar-crypto-logos.usdt-0.0.1.tgz#ba353daea481c9e014f4b3e1ecdb4258e9ff2b86"
+  integrity sha1-ujU9rqSByeAU9LPh7NtCWOn/K4Y=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.ust@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.ust/-/@wesdollar-crypto-logos.ust-0.0.1.tgz#871c8a8f061c4dc5d181b80dd69108f81d4ccd18"
+  integrity sha1-hxyKjwYcTcXRgbgN1pEI+B1MzRg=
+  dependencies:
+    core-js "^3.0.0"
+
 "@wesdollar/crypto-logos.xlm@0.0.1":
   version "0.0.1"
   resolved "https://node.bit.dev/@wesdollar/crypto-logos.xlm/-/@wesdollar-crypto-logos.xlm-0.0.1.tgz#10921a03435fee18ba7ec89363a4ac81b961ef82"
   integrity sha1-EJIaA0Nf7hi6fsiTY6Ssgblh74I=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.xtz@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.xtz/-/@wesdollar-crypto-logos.xtz-0.0.1.tgz#bc52cfdd2a0457e51cdc9633cf9a47f7a07062a5"
+  integrity sha1-vFLP3SoEV+Uc3JYzz5pH96BwYqU=
+  dependencies:
+    core-js "^3.0.0"
+
+"@wesdollar/crypto-logos.zrx@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.dev/@wesdollar/crypto-logos.zrx/-/@wesdollar-crypto-logos.zrx-0.0.1.tgz#c9fd32ce43a7acb2d7eb5e0a6559cdb9deeb28bf"
+  integrity sha1-yf0yzkOnrLLX614KZVnNud7rKL8=
   dependencies:
     core-js "^3.0.0"
 
@@ -2895,10 +3441,10 @@
     prop-types "15.7.2"
     styled-components "5.3.0"
 
-"@wesdollar/dollar-crypto.dollar-crypto.views.login@^2.0.20":
-  version "2.0.20"
-  resolved "https://node.bit.dev/@wesdollar/dollar-crypto.dollar-crypto.views.login/-/@wesdollar-dollar-crypto.dollar-crypto.views.login-2.0.20.tgz#ac3096d11ff377fefec6fb7491072ca93a0c2cb6"
-  integrity sha1-rDCW0R/zd/7+xvt0kQcsqToMLLY=
+"@wesdollar/dollar-crypto.dollar-crypto.views.login@^2.0.21":
+  version "2.0.21"
+  resolved "https://node.bit.dev/@wesdollar/dollar-crypto.dollar-crypto.views.login/-/@wesdollar-dollar-crypto.dollar-crypto.views.login-2.0.21.tgz#9ecb00833ebec7e69be4b43e9867949758fdff46"
+  integrity sha1-nssAgz6+x+ab5LQ+mGeUl1j9/0Y=
   dependencies:
     "@wesdollar/dollar-crypto.dollar-crypto.ui.buttons.button" "0.0.9"
     "@wesdollar/dollar-crypto.dollar-crypto.views.set-keys" "0.0.22"
@@ -2908,7 +3454,7 @@
     "@wesdollar/dollar-ui.ui.error-state" "0.0.8"
     "@wesdollar/dollar-ui.ui.loading" "0.0.8"
     "@wesdollar/dollar-ui.ui.space" "0.0.4"
-    "@wesdollar/dollar-ui.views.dashboard" "0.0.28"
+    "@wesdollar/dollar-ui.views.dashboard" "0.0.29"
     core-js "^3.0.0"
     firebase "9.0.0"
     prop-types "15.7.2"
@@ -2935,10 +3481,10 @@
     prop-types "15.7.2"
     styled-components "5.3.0"
 
-"@wesdollar/dollar-crypto.dollar-crypto.views.ws-login@^0.0.8":
-  version "0.0.8"
-  resolved "https://node.bit.dev/@wesdollar/dollar-crypto.dollar-crypto.views.ws-login/-/@wesdollar-dollar-crypto.dollar-crypto.views.ws-login-0.0.8.tgz#1ba83ed1491080005bf4ea3399676ea1020c4735"
-  integrity sha1-G6g+0UkQgABb9OozmWduoQIMRzU=
+"@wesdollar/dollar-crypto.dollar-crypto.views.ws-login@^0.0.9":
+  version "0.0.9"
+  resolved "https://node.bit.dev/@wesdollar/dollar-crypto.dollar-crypto.views.ws-login/-/@wesdollar-dollar-crypto.dollar-crypto.views.ws-login-0.0.9.tgz#60c09a3dcaa1a23959114ab7206c25fa5f5620c6"
+  integrity sha1-YMCaPcqhojlZEUq3IGwl+l9WIMY=
   dependencies:
     "@wesdollar/dollar-crypto.dollar-crypto.ui.buttons.button" "0.0.9"
     "@wesdollar/dollar-crypto.dollar-crypto.views.set-keys" "0.0.22"
@@ -2948,7 +3494,7 @@
     "@wesdollar/dollar-ui.ui.error-state" "0.0.8"
     "@wesdollar/dollar-ui.ui.loading" "0.0.8"
     "@wesdollar/dollar-ui.ui.space" "0.0.4"
-    "@wesdollar/dollar-ui.views.dashboard" "0.0.28"
+    "@wesdollar/dollar-ui.views.dashboard" "0.0.29"
     core-js "^3.0.0"
     firebase "9.0.0"
     moment "2.29.1"
@@ -3047,12 +3593,12 @@
   dependencies:
     "@wesdollar/dollar-ui.constants.colors" "0.0.1"
 
-"@wesdollar/dollar-ui.crypto.list-wallets@0.0.9":
-  version "0.0.9"
-  resolved "https://node.bit.dev/@wesdollar/dollar-ui.crypto.list-wallets/-/@wesdollar-dollar-ui.crypto.list-wallets-0.0.9.tgz#7e581901d75644d8807e3a3ab57ffae4a571497b"
-  integrity sha1-flgZAddWRNiAfjo6tX/65KVxSXs=
+"@wesdollar/dollar-ui.crypto.list-wallets@0.0.10":
+  version "0.0.10"
+  resolved "https://node.bit.dev/@wesdollar/dollar-ui.crypto.list-wallets/-/@wesdollar-dollar-ui.crypto.list-wallets-0.0.10.tgz#984e208371a3675af11e24ae226c4aef3b4325d7"
+  integrity sha1-mE4gg3GjZ1rxHiSuImxK7ztDJdc=
   dependencies:
-    "@wesdollar/dollar-ui.crypto.wallet-summary" "0.0.9"
+    "@wesdollar/dollar-ui.crypto.wallet-summary" "0.0.10"
     "@wesdollar/dollar-ui.test-data.crypto.resources.profits" "0.0.3"
     "@wesdollar/dollar-ui.ui.tile" "0.0.6"
     core-js "^3.0.0"
@@ -3076,16 +3622,94 @@
     prop-types "15.7.2"
     styled-components "5.3.0"
 
-"@wesdollar/dollar-ui.crypto.wallet-summary@0.0.9":
-  version "0.0.9"
-  resolved "https://node.bit.dev/@wesdollar/dollar-ui.crypto.wallet-summary/-/@wesdollar-dollar-ui.crypto.wallet-summary-0.0.9.tgz#24ff20fba54c7f18090245d6867e2d2dac63ebf4"
-  integrity sha1-JP8g+6VMfxgJAkXWhn4tLaxj6/Q=
+"@wesdollar/dollar-ui.crypto.wallet-summary@0.0.10":
+  version "0.0.10"
+  resolved "https://node.bit.dev/@wesdollar/dollar-ui.crypto.wallet-summary/-/@wesdollar-dollar-ui.crypto.wallet-summary-0.0.10.tgz#4c0c873b7fd66debe11ff1c3e537672df33133be"
+  integrity sha1-TAyHO3/WbevhH/HD5TdnLfMxM74=
   dependencies:
     "@material-ui/icons" "4.11.2"
-    "@wesdollar/crypto-logos.amp" "0.0.1"
+    "@wesdollar/crypto-logos.1inch" "0.0.1"
+    "@wesdollar/crypto-logos.aave" "0.0.1"
+    "@wesdollar/crypto-logos.ach" "0.0.1"
+    "@wesdollar/crypto-logos.ada" "0.0.1"
+    "@wesdollar/crypto-logos.algo" "0.0.1"
+    "@wesdollar/crypto-logos.amp" "0.0.2"
+    "@wesdollar/crypto-logos.ankr" "0.0.1"
+    "@wesdollar/crypto-logos.atom" "0.0.1"
+    "@wesdollar/crypto-logos.axs" "0.0.1"
+    "@wesdollar/crypto-logos.bal" "0.0.1"
+    "@wesdollar/crypto-logos.band" "0.0.1"
+    "@wesdollar/crypto-logos.bat" "0.0.2"
+    "@wesdollar/crypto-logos.bch" "0.0.1"
+    "@wesdollar/crypto-logos.bnt" "0.0.1"
+    "@wesdollar/crypto-logos.bond" "0.0.1"
+    "@wesdollar/crypto-logos.btc" "0.0.1"
+    "@wesdollar/crypto-logos.cgld" "0.0.1"
+    "@wesdollar/crypto-logos.chz" "0.0.1"
+    "@wesdollar/crypto-logos.clv" "0.0.1"
+    "@wesdollar/crypto-logos.comp" "0.0.1"
+    "@wesdollar/crypto-logos.crv" "0.0.1"
+    "@wesdollar/crypto-logos.ctsi" "0.0.1"
+    "@wesdollar/crypto-logos.dai" "0.0.1"
+    "@wesdollar/crypto-logos.dash" "0.0.1"
+    "@wesdollar/crypto-logos.doge" "0.0.1"
+    "@wesdollar/crypto-logos.dot" "0.0.1"
+    "@wesdollar/crypto-logos.enj" "0.0.1"
+    "@wesdollar/crypto-logos.eos" "0.0.1"
+    "@wesdollar/crypto-logos.etc" "0.0.1"
     "@wesdollar/crypto-logos.eth" "0.0.1"
+    "@wesdollar/crypto-logos.farm" "0.0.1"
+    "@wesdollar/crypto-logos.fet" "0.0.1"
+    "@wesdollar/crypto-logos.fil" "0.0.1"
+    "@wesdollar/crypto-logos.forth" "0.0.1"
+    "@wesdollar/crypto-logos.grt" "0.0.1"
+    "@wesdollar/crypto-logos.gtc" "0.0.1"
+    "@wesdollar/crypto-logos.icp" "0.0.1"
+    "@wesdollar/crypto-logos.iotx" "0.0.1"
+    "@wesdollar/crypto-logos.keep" "0.0.1"
+    "@wesdollar/crypto-logos.knc" "0.0.1"
+    "@wesdollar/crypto-logos.loom" "0.0.1"
+    "@wesdollar/crypto-logos.lpt" "0.0.1"
+    "@wesdollar/crypto-logos.lrc" "0.0.1"
+    "@wesdollar/crypto-logos.ltc" "0.0.1"
+    "@wesdollar/crypto-logos.mask" "0.0.1"
+    "@wesdollar/crypto-logos.matic" "0.0.1"
+    "@wesdollar/crypto-logos.mir" "0.0.1"
+    "@wesdollar/crypto-logos.mkr" "0.0.1"
+    "@wesdollar/crypto-logos.mln" "0.0.1"
+    "@wesdollar/crypto-logos.nkn" "0.0.1"
+    "@wesdollar/crypto-logos.nmr" "0.0.1"
+    "@wesdollar/crypto-logos.nu" "0.0.1"
+    "@wesdollar/crypto-logos.ogn" "0.0.1"
+    "@wesdollar/crypto-logos.omg" "0.0.1"
+    "@wesdollar/crypto-logos.orn" "0.0.1"
+    "@wesdollar/crypto-logos.oxt" "0.0.1"
+    "@wesdollar/crypto-logos.pax" "0.0.1"
+    "@wesdollar/crypto-logos.pla" "0.0.1"
+    "@wesdollar/crypto-logos.poly" "0.0.1"
+    "@wesdollar/crypto-logos.qnt" "0.0.1"
+    "@wesdollar/crypto-logos.quick" "0.0.1"
+    "@wesdollar/crypto-logos.rai" "0.0.1"
+    "@wesdollar/crypto-logos.ren" "0.0.1"
+    "@wesdollar/crypto-logos.rep" "0.0.1"
+    "@wesdollar/crypto-logos.req" "0.0.1"
+    "@wesdollar/crypto-logos.rlc" "0.0.1"
+    "@wesdollar/crypto-logos.rly" "0.0.1"
+    "@wesdollar/crypto-logos.skl" "0.0.1"
+    "@wesdollar/crypto-logos.snx" "0.0.1"
+    "@wesdollar/crypto-logos.sol" "0.0.1"
+    "@wesdollar/crypto-logos.storj" "0.0.1"
+    "@wesdollar/crypto-logos.sushi" "0.0.1"
+    "@wesdollar/crypto-logos.trb" "0.0.1"
+    "@wesdollar/crypto-logos.tribe" "0.0.1"
+    "@wesdollar/crypto-logos.tru" "0.0.1"
+    "@wesdollar/crypto-logos.uma" "0.0.1"
     "@wesdollar/crypto-logos.uni" "0.0.1"
+    "@wesdollar/crypto-logos.usdt" "0.0.1"
+    "@wesdollar/crypto-logos.ust" "0.0.1"
     "@wesdollar/crypto-logos.xlm" "0.0.1"
+    "@wesdollar/crypto-logos.xtz" "0.0.1"
+    "@wesdollar/crypto-logos.zrx" "0.0.1"
     "@wesdollar/dollar-crypto.logo.logo-png-sm" "0.0.1"
     "@wesdollar/dollar-ui.constants.font-sizes" "0.0.1"
     "@wesdollar/dollar-ui.constants.gutters" "0.0.3"
@@ -3096,6 +3720,7 @@
     "@wesdollar/dollar-ui.ui.space" "0.0.4"
     "@wesdollar/dollar-ui.ui.stealth-mode" "0.0.1"
     core-js "^3.0.0"
+    lodash "4.17.21"
     prop-types "15.7.2"
     styled-components "5.3.0"
 
@@ -3315,16 +3940,16 @@
     prop-types "15.7.2"
     styled-components "5.3.0"
 
-"@wesdollar/dollar-ui.views.dashboard@0.0.28", "@wesdollar/dollar-ui.views.dashboard@^0.0.28":
-  version "0.0.28"
-  resolved "https://node.bit.dev/@wesdollar/dollar-ui.views.dashboard/-/@wesdollar-dollar-ui.views.dashboard-0.0.28.tgz#15325fbc7bb410a60185570dbccf0fd20c25ee1a"
-  integrity sha1-FTJfvHu0EKYBhVcNvM8P0gwl7ho=
+"@wesdollar/dollar-ui.views.dashboard@0.0.29", "@wesdollar/dollar-ui.views.dashboard@^0.0.29":
+  version "0.0.29"
+  resolved "https://node.bit.dev/@wesdollar/dollar-ui.views.dashboard/-/@wesdollar-dollar-ui.views.dashboard-0.0.29.tgz#233b3200ac613dda14639d939239181cb701b49a"
+  integrity sha1-IzsyAKxhPdoUY52TkjkYHLcBtJo=
   dependencies:
     "@material-ui/icons" "4.11.2"
     "@wesdollar/dollar-crypto.dollar-crypto.constants.colors" "0.0.3"
     "@wesdollar/dollar-ui.action-buttons.refresh" "0.0.8"
     "@wesdollar/dollar-ui.constants.gutters" "0.0.3"
-    "@wesdollar/dollar-ui.crypto.list-wallets" "0.0.9"
+    "@wesdollar/dollar-ui.crypto.list-wallets" "0.0.10"
     "@wesdollar/dollar-ui.crypto.summary-tile" "0.0.9"
     "@wesdollar/dollar-ui.test-data.crypto.resources.profits" "0.0.3"
     "@wesdollar/dollar-ui.ui.action-buttons.logout" "0.0.1"
@@ -8413,7 +9038,7 @@ lodash.uniq@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
-"lodash@>=3.5 <5", lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.21, lodash@^4.17.5, lodash@^4.7.0:
+lodash@4.17.21, "lodash@>=3.5 <5", lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.21, lodash@^4.17.5, lodash@^4.7.0:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
